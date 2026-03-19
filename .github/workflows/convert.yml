@@ -10,32 +10,31 @@ jobs:
       
       - name: Download and Prepare
         run: |
-          # 1. 直接从 GitHub API 获取最新的 Mihomo Linux-amd64 下载链接
-          DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "browser_download_url" | grep "linux-amd64-v" | grep ".tar.gz" | head -n 1 | cut -d '"' -f 4)
-          echo "正在下载: $DOWNLOAD_URL"
+          # 1. 使用 GitHub 的自动重定向获取最新版，不再手动拼链接
+          # 这里的链接指向 MetaCubeX 官方仓库的最新发布版
+          curl -L -o mihomo.tar.gz "https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64.tar.gz"
           
-          # 2. 下载并解压
-          curl -L -o mihomo.tar.gz "$DOWNLOAD_URL"
-          
-          # 检查文件大小，如果太小说明下载失败
-          FILE_SIZE=$(stat -c%s "mihomo.tar.gz")
-          if [ $FILE_SIZE -lt 1000 ]; then
-            echo "错误：下载的文件太小 ($FILE_SIZE bytes)，可能是链接失效了。"
-            exit 1
-          fi
-          
+          # 2. 解压
           tar -xzf mihomo.tar.gz
           
-          # 3. 统一改名
-          find . -name "mihomo-linux-amd64*" -exec mv {} mihomo \;
+          # 3. 寻找解压出的可执行文件并改名为 mihomo
+          # 不管它叫 mihomo-linux-amd64 还是别的，只要是这个开头就改名
+          find . -maxdepth 1 -name "mihomo-linux-amd64*" -exec mv {} mihomo \;
           chmod +x mihomo
           
-          # 4. 获取数据
+          # 4. 获取数据并清洗
           curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
 
       - name: Build MRS
         run: |
-          ./mihomo convert-ruleset domain text list.txt 10007.mrs
+          # 确保文件存在再运行
+          if [ -f "./mihomo" ]; then
+            ./mihomo convert-ruleset domain text list.txt 10007.mrs
+          else
+            echo "错误：找不到 mihomo 执行文件"
+            ls -l
+            exit 1
+          fi
 
       - name: Save to Repo
         run: |
