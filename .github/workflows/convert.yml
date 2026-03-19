@@ -2,7 +2,7 @@ name: Convert Ruleset
 on:
   workflow_dispatch:  # 保留手动运行
   schedule:
-    - cron: "0 0 * * *"  # 每天 UTC 0点 = 北京时间 8 点
+    - cron: "0 3 * * *"  # 每天 UTC 0点 = 北京时间 11 点
 
 jobs:
   run_convert:
