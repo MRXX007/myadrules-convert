@@ -13,7 +13,10 @@ jobs:
       # 🔥 唯一不会失败的 mihomo 下载方式
       - name: Download mihomo
         run: |
-          curl -L -o mihomo https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
+          curl -L -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
+          # 解压！！！这一步你之前漏了！
+          gzip -d mihomo.gz
+          # 加权限
           chmod +x mihomo
 
       # 生成域名列表
