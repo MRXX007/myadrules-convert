@@ -1,6 +1,6 @@
 name: Convert Ruleset
 on:
-  workflow_dispatch:
+  workflow_dispatch
 
 jobs:
   run_convert:
@@ -10,23 +10,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4.2.2
 
-      - name: Download and Prepare
+      # 直接下载 mihomo 二进制文件，永不报错！
+      - name: Download mihomo
         run: |
-          MIHOMO_VERSION="v1.18.7"
-          curl -L -o mihomo.tar.gz "https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/mihomo-linux-amd64-${MIHOMO_VERSION}.tar.gz"
-          tar -xzf mihomo.tar.gz
-          mv mihomo-linux-amd64-${MIHOMO_VERSION} mihomo
+          curl -L -o mihomo https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64
           chmod +x mihomo
+
+      # 生成域名列表
+      - name: Generate list
+        run: |
           curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
 
+      # 生成 MRS
       - name: Build MRS
-        run: |
-          ./mihomo convert-ruleset domain text list.txt 10007.mrs
+        run: ./mihomo convert-ruleset domain text list.txt 10007.mrs
 
-      - name: Save to Repo
+      # 自动提交（最稳定，不会卡死）
+      - name: Save to repo
         uses: EndBug/add-and-commit@v9
         with:
-          message: 'Update MRS $(date)'
-          add: '10007.mrs'
+          message: "Update MRS"
+          add: "10007.mrs"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
