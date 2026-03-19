@@ -6,20 +6,17 @@ jobs:
   run_convert:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 必须加！否则无法 git push
+      contents: write
     steps:
-      # 修复 Node.js 20 弃用警告 + 稳定运行
       - uses: actions/checkout@v4.2.2
 
       - name: Download and Prepare
         run: |
-          # 下载 mihomo
-          curl -L -o mihomo.tar.gz "https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64.tar.gz"
+          MIHOMO_VERSION="v1.18.7"
+          curl -L -o mihomo.tar.gz "https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/mihomo-linux-amd64-${MIHOMO_VERSION}.tar.gz"
           tar -xzf mihomo.tar.gz
-          mv mihomo-linux-amd64 mihomo
+          mv mihomo-linux-amd64-${MIHOMO_VERSION} mihomo
           chmod +x mihomo
-
-          # 生成列表
           curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
 
       - name: Build MRS
@@ -27,9 +24,9 @@ jobs:
           ./mihomo convert-ruleset domain text list.txt 10007.mrs
 
       - name: Save to Repo
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add 10007.mrs
-          git commit -m "Update MRS $(date)" || echo "No changes to commit"
-          git push
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Update MRS $(date)'
+          add: '10007.mrs'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
