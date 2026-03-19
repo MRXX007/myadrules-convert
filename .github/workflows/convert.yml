@@ -5,36 +5,31 @@ on:
 jobs:
   run_convert:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 必须加！否则无法 git push
     steps:
-      - uses: actions/checkout@v4
+      # 修复 Node.js 20 弃用警告 + 稳定运行
+      - uses: actions/checkout@v4.2.2
 
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: 'stable'
-
-      - name: Build Mihomo and Convert
+      - name: Download and Prepare
         run: |
-          # 1. 直接拉取 Mihomo 源码并编译 (只需几秒钟)
-          # 我们只需要它的转换功能，不需要完整功能，这样最快
-          go install github.com/MetaCubeX/mihomo@latest
-          
-          # 2. 找到编译好的二进制文件 (通常在 ~/go/bin/mihomo)
-          export PATH=$PATH:$(go env GOPATH)/bin
-          
-          # 3. 获取数据并清洗
+          # 下载 mihomo
+          curl -L -o mihomo.tar.gz "https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64.tar.gz"
+          tar -xzf mihomo.tar.gz
+          mv mihomo-linux-amd64 mihomo
+          chmod +x mihomo
+
+          # 生成列表
           curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
-          
-          # 4. 执行转换
-          mihomo convert-ruleset domain text list.txt 10007.mrs
-          
-          # 检查文件是否生成
-          ls -l 10007.mrs
+
+      - name: Build MRS
+        run: |
+          ./mihomo convert-ruleset domain text list.txt 10007.mrs
 
       - name: Save to Repo
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add 10007.mrs
-          git commit -m "Update MRS $(date)" || echo "No changes"
+          git commit -m "Update MRS $(date)" || echo "No changes to commit"
           git push
