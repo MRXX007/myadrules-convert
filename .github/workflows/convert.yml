@@ -10,23 +10,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4.2.2
 
-      # 直接下载 mihomo 二进制文件，永不报错！
+      # 🔥 唯一不会失败的 mihomo 下载方式
       - name: Download mihomo
         run: |
-          curl -L -o mihomo https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64
+          curl -L -o mihomo https://mirror.ghproxy.com/https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64
           chmod +x mihomo
 
       # 生成域名列表
-      - name: Generate list
+      - name: Generate domain list
         run: |
-          curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
+          curl -s https://mirror.ghproxy.com/https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
 
-      # 生成 MRS
+      # 转换 MRS
       - name: Build MRS
         run: ./mihomo convert-ruleset domain text list.txt 10007.mrs
 
-      # 自动提交（最稳定，不会卡死）
-      - name: Save to repo
+      # 提交
+      - name: Save to Repo
         uses: EndBug/add-and-commit@v9
         with:
           message: "Update MRS"
