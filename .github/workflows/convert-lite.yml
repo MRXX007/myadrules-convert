@@ -1,0 +1,40 @@
+name: Convert Ruleset
+on:
+  workflow_dispatch:  # 保留手动运行
+  schedule:
+    - cron: "0 3 * * *"  # 每天 UTC 3点 = 北京时间 11 点
+
+jobs:
+  run_convert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      # 🔥 唯一不会失败的 mihomo 下载方式
+      - name: Download mihomo
+        run: |
+          curl -L -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
+          # 解压！！！这一步你之前漏了！
+          gzip -d mihomo.gz
+          # 加权限
+          chmod +x mihomo
+
+      # 生成域名列表
+      - name: Generate domain list
+        run: |
+          curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
+
+      # 转换 MRS
+      - name: Build MRS
+        run: ./mihomo convert-ruleset domain text list.txt 10007-lite.mrs
+
+      # 提交
+      - name: Save to Repo
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Update MRS"
+          add: "10007-lite.mrs"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
