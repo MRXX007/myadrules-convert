@@ -7,34 +7,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Download and Prepare
-        run: |
-          # 1. 使用 GitHub 的自动重定向获取最新版，不再手动拼链接
-          # 这里的链接指向 MetaCubeX 官方仓库的最新发布版
-          curl -L -o mihomo.tar.gz "https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64.tar.gz"
-          
-          # 2. 解压
-          tar -xzf mihomo.tar.gz
-          
-          # 3. 寻找解压出的可执行文件并改名为 mihomo
-          # 不管它叫 mihomo-linux-amd64 还是别的，只要是这个开头就改名
-          find . -maxdepth 1 -name "mihomo-linux-amd64*" -exec mv {} mihomo \;
-          chmod +x mihomo
-          
-          # 4. 获取数据并清洗
-          curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
 
-      - name: Build MRS
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Build Mihomo and Convert
         run: |
-          # 确保文件存在再运行
-          if [ -f "./mihomo" ]; then
-            ./mihomo convert-ruleset domain text list.txt 10007.mrs
-          else
-            echo "错误：找不到 mihomo 执行文件"
-            ls -l
-            exit 1
-          fi
+          # 1. 直接拉取 Mihomo 源码并编译 (只需几秒钟)
+          # 我们只需要它的转换功能，不需要完整功能，这样最快
+          go install github.com/MetaCubeX/mihomo@latest
+          
+          # 2. 找到编译好的二进制文件 (通常在 ~/go/bin/mihomo)
+          export PATH=$PATH:$(go env GOPATH)/bin
+          
+          # 3. 获取数据并清洗
+          curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
+          
+          # 4. 执行转换
+          mihomo convert-ruleset domain text list.txt 10007.mrs
+          
+          # 检查文件是否生成
+          ls -l 10007.mrs
 
       - name: Save to Repo
         run: |
