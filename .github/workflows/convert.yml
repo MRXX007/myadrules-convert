@@ -13,13 +13,13 @@ jobs:
       # 🔥 唯一不会失败的 mihomo 下载方式
       - name: Download mihomo
         run: |
-          curl -L -o mihomo https://mirror.ghproxy.com/https://github.com/MetaCubeX/mihomo/releases/latest/download/mihomo-linux-amd64
+          curl -L -o mihomo https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
           chmod +x mihomo
 
       # 生成域名列表
       - name: Generate domain list
         run: |
-          curl -s https://mirror.ghproxy.com/https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
+          curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
 
       # 转换 MRS
       - name: Build MRS
