@@ -10,26 +10,31 @@ jobs:
       
       - name: Download and Prepare
         run: |
-          # 1. 下载内核
-          curl -L -o mihomo.tar.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.18.3/mihomo-linux-amd64-v1.18.3.tar.gz
+          # 1. 直接从 GitHub API 获取最新的 Mihomo Linux-amd64 下载链接
+          DOWNLOAD_URL=$(curl -s https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep "browser_download_url" | grep "linux-amd64-v" | grep ".tar.gz" | head -n 1 | cut -d '"' -f 4)
+          echo "正在下载: $DOWNLOAD_URL"
           
-          # 2. 解压
+          # 2. 下载并解压
+          curl -L -o mihomo.tar.gz "$DOWNLOAD_URL"
+          
+          # 检查文件大小，如果太小说明下载失败
+          FILE_SIZE=$(stat -c%s "mihomo.tar.gz")
+          if [ $FILE_SIZE -lt 1000 ]; then
+            echo "错误：下载的文件太小 ($FILE_SIZE bytes)，可能是链接失效了。"
+            exit 1
+          fi
+          
           tar -xzf mihomo.tar.gz
           
-          # 3. 【关键修复】找到解压出来的那个程序并重命名为 mihomo
-          # 使用通配符找到以 mihomo-linux-amd64 开头的文件并改名
+          # 3. 统一改名
           find . -name "mihomo-linux-amd64*" -exec mv {} mihomo \;
           chmod +x mihomo
           
-          # 4. 获取 Hosts 并提取域名
+          # 4. 获取数据
           curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
-          
-          # 打印当前目录文件列表，方便报错时排查
-          ls -l
 
       - name: Build MRS
         run: |
-          # 运行转换命令
           ./mihomo convert-ruleset domain text list.txt 10007.mrs
 
       - name: Save to Repo
