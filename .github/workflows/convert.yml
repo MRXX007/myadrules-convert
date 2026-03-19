@@ -1,0 +1,32 @@
+name: Convert Ruleset
+on:
+  workflow_dispatch: # 启用手动运行按钮
+
+jobs:
+  run_convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Download Mihomo and Source
+        run: |
+          # 下载内核并改名
+          curl -L -o mihomo.tar.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.18.3/mihomo-linux-amd64-v1.18.3.tar.gz
+          tar -xzf mihomo.tar.gz
+          mv mihomo-linux-amd64-v1.18.3 mihomo
+          chmod +x mihomo
+          
+          # 提取原始 Hosts 中的域名
+          curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
+
+      - name: Build MRS
+        run: |
+          ./mihomo convert-ruleset domain text list.txt 10007.mrs
+
+      - name: Save to Repo
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add 10007.mrs
+          git commit -m "Update MRS" || exit 0
+          git push
