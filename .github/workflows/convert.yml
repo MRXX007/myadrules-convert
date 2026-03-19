@@ -1,8 +1,4 @@
 name: Convert Ruleset
-# 👇 全局强制 Node.js 24
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 on:
   workflow_dispatch:
   schedule:
@@ -15,7 +11,10 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4.3.0
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
 
       - name: Download mihomo
         run: |
@@ -30,8 +29,11 @@ jobs:
       - name: Build MRS
         run: ./mihomo convert-ruleset domain text list.txt 10007.mrs
 
-      - name: Save to Repo
-        uses: EndBug/add-and-commit@v9.1.4
-        with:
-          message: "Daily Update MRS"
-          add: "10007.mrs"
+      # 👇 这里改用原生 git，彻底告别第三方 Action！不再提示！
+      - name: Git Commit Push
+        run: |
+          git config --local user.name "GitHub Action"
+          git config --local user.email "action@github.com"
+          git add 10007.mrs
+          git commit -m "Daily Update MRS" || exit 0
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
