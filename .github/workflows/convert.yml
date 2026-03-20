@@ -1,39 +1,49 @@
 name: Convert Ruleset
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # 手动触发
   schedule:
-    - cron: '0 3 * * *'  # 每天 北京时间 11:00
+    - cron: '0 3 * * *'  # 每天 UTC 3:00 = 北京时间 11:00
+  push:
+    branches:
+      - main  # 每次推代码到main也自动跑，双重保险
 
 jobs:
   run_convert:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: read  # 补充权限，避免权限不足
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.3.0
         with:
-          persist-credentials: false
-          fetch-depth: 0
+          fetch-depth: 1
+          persist-credentials: true  # 确保提交权限正常
 
       - name: Download mihomo
         run: |
-          curl -L -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
+          curl -L --retry 5 --retry-delay 2 -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
           gzip -d mihomo.gz
           chmod +x mihomo
 
       - name: Generate domain list
         run: |
-          curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
+          curl -s --retry 5 --retry-delay 2 https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | \
+          grep -v '^#' | \
+          grep '^0\.0\.0\.0' | \
+          awk '{print $2}' | \
+          sort -u > list.txt
 
       - name: Build MRS
         run: ./mihomo convert-ruleset domain text list.txt 10007.mrs
 
-      # 👇 这里改用原生 git，彻底告别第三方 Action！不再提示！
-      - name: Git Commit Push
-        run: |
-          git config --local user.name "GitHub Action"
-          git config --local user.email "action@github.com"
-          git add 10007.mrs
-          git commit -m "Daily Update MRS" || exit 0
-          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
+      - name: Save to Repo
+        uses: EndBug/add-and-commit@v9.1.4
+        with:
+          message: "Daily Update MRS (Auto Schedule)"
+          add: "10007.mrs"
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
+          signoff: false
