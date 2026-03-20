@@ -33,21 +33,24 @@ jobs:
           echo "当前抓取到的规则条数："
           wc -l list.txt
 
-      # 强制更新并记录行数
+      # 强制更新！
       - name: Force Commit & Push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # 1. 自动计算 list.txt 的行数
+          # 1. 获取当前行数（用于 Commit 信息，确保每次提交内容都不同）
           LINES=$(wc -l < list.txt)
           
-          # 2. 强制添加文件（不管它变没变）
+          # 2. 【关键】先从 Git 缓存中删除 mrs，强迫 Git 重新识别它
+          git rm --cached 10007.mrs || echo "First time"
+          
+          # 3. 强制添加新生成的 mrs
           git add -f 10007.mrs
           
-          # 3. 把行数写进提交信息，这会让每次 Commit 都不一样
-          # 就算文件没变，Commit 信息变了，也会触发更新
-          git commit -m "Confirmed: ${LINES} lines [$(date '+%Y-%m-%d %H:%M:%S')]"
+          # 4. 提交。使用 --allow-empty 保证即使 Git 觉得没变也能成功
+          git commit -m "Confirmed: ${LINES} lines [$(date '+%Y-%m-%d %H:%M:%S')]" --allow-empty
           
-          # 4. 强制推送
-          git push origin HEAD:${{ github.ref_name }} --force
+          # 5. 强制推送到远程 main 分支
+          git push origin HEAD:main --force
+
