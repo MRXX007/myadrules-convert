@@ -1,4 +1,4 @@
-name: Convert Ruleset
+name: Convert Ruleset-lite
 on:
   workflow_dispatch:
   schedule:
