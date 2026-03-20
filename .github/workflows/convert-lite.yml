@@ -34,15 +34,15 @@ jobs:
         curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
 
     - name: 构建 MRS 文件
-      run: ./mihomo convert-ruleset domain text list.txt 10007.mrs
+      run: ./mihomo convert-ruleset domain text list.txt 10007-lite.mrs
 
     # 👇 这是修复核心：强制提交 + 强制推送，保证文件一定更新
     - name: 提交并推送更新
       run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "action@github.com"
-        git add 10007.mrs
+        git config --local user.name "GitHub Action"
+        git config --local user.email "action@github.com"
+        git add 10007-lite.mrs
+        # --allow-empty 保证即使文件无变化也能提交，强制更新时间戳
         git commit -m "Auto Update $(date '+%Y-%m-%d %H:%M:%S')" --allow-empty
-        git push --force
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # 直接使用checkout时注入的凭证，无需额外配置token
+        git push
