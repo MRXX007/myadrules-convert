@@ -1,70 +1,39 @@
-name: Convert Ruleset-all
+name: Convert Ruleset
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *'  # 北京时间 12:00
+    - cron: '0 4 * * *'  # 北京时间12点
 
 jobs:
-  run_convert:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
+    
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 下载 mihomo
-      - name: Download mihomo
-        run: |
-          curl -L --retry 3 -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
-          gzip -d mihomo.gz
-          chmod +x mihomo
+    - name: Download mihomo
+      run: |
+        curl -L -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
+        gzip -d mihomo.gz
+        chmod +x mihomo
 
-            # 生成域名列表 (加入随机参数绕过缓存)
-      - name: Generate domain list
-        run: |
-          curl -s --retry 3 https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all -o all.txt
-          grep '^0\.0\.0\.0' all.txt | awk '{print $2}' | sort -u > list.txt
-          
-          # Debug: 显示源更新时间 + list.txt 前后变化线索
-          grep -E '^#更新时间' all.txt || echo "无更新时间注释"
-          echo "list.txt 行数: $(wc -l < list.txt)"
-          echo "list.txt 前5行:"
-          head -n 5 list.txt
-          echo "list.txt MD5: $(md5sum list.txt | cut -d' ' -f1)"
+    - name: Generate domain list
+      run: |
+        curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
 
-      - name: Build MRS
-        run: |
-          ./mihomo convert-ruleset domain text list.txt 10007.mrs || { echo "转换命令失败！"; exit 1; }
-          
-          # Debug: 检查输出文件
-          if [ -f 10007.mrs ]; then
-            echo "10007.mrs 大小: $(stat -c %s 10007.mrs) 字节"
-            echo "10007.mrs MD5: $(md5sum 10007.mrs | cut -d' ' -f1)"
-            # 如果 .mrs 支持查看头（mihomo 可能有 dump 命令，试试）
-            ./mihomo version || true
-          else
-            echo "MRS 文件没生成！"
-            exit 1
-          fi
+    - name: Build MRS
+      run: ./mihomo convert-ruleset domain text list.txt 10007.mrs
 
-      - name: Commit & Push (即使没变也推，带源更新时间)
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          
-          git add 10007.mrs list.txt all.txt   # 顺便加 all.txt 看源变化
-          
-          # 取源更新时间作为 commit 消息（即使 .mrs 没变，也能看到更新）
-          UPDATE_TIME=\( (grep -oP '^#更新时间: \K.*' all.txt || echo " \)(date '+%Y-%m-%d %H:%M:%S')")
-          
-          if git diff --cached --quiet; then
-            echo "文件无实质变化，但强制空 commit"
-            git commit --allow-empty -m "Daily Update MRS (源更新: $UPDATE_TIME) [no content change]"
-          else
-            git commit -m "Daily Update MRS (源更新: $UPDATE_TIME)"
-          fi
-          
-          git push origin HEAD:main || echo "Push 失败，看日志"
+    # 👇 👇 👇 这一段是全新的！强制提交，绝对会更新！
+    - name: Push changes
+      run: |
+        git config --global user.name "Auto Update"
+        git config --global user.email "action@github.com"
+        git add 10007.mrs
+        git commit -m "Auto Update $(date '+%Y-%m-%d %H:%M')"
+        git push
