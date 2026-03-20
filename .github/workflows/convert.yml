@@ -1,4 +1,4 @@
-name: Convert Ruleset
+name: Convert Ruleset-all
 on:
   workflow_dispatch:
   schedule:
@@ -22,11 +22,16 @@ jobs:
           gzip -d mihomo.gz
           chmod +x mihomo
 
-      # 生成域名列表
+            # 生成域名列表 (加入随机参数绕过缓存)
       - name: Generate domain list
         run: |
-          curl -s --retry 3 https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | \
+          # 使用 $(date +%s) 生成一个秒级时间戳，加在 URL 后面
+          curl -sL --retry 3 "https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all?v=$(date +%s)" | \
           grep '^0\.0\.0\.0' | awk '{print $2}' | sort -u > list.txt
+          
+          # 打印一下行数，在 Actions 日志里就能直接看到数量对不对
+          echo "当前抓取到的规则条数："
+          wc -l list.txt
 
       # 构建 MRS
       - name: Build MRS
