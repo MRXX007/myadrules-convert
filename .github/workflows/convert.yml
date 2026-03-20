@@ -33,27 +33,21 @@ jobs:
           echo "当前抓取到的规则条数："
           wc -l list.txt
 
-      # 构建 MRS
-      - name: Build MRS
-        run: |
-          # 1. 先彻底删除旧文件
-          rm -f 10007.mrs
-          # 2. 生成新文件
-          ./mihomo convert-ruleset domain text list.txt 10007.mrs
-          # 3. 【关键】生成一个永远包含当前时间的文本文件
-          echo "Last sync: $(date)" > version.txt
-
-      # 强制推送
+      # 强制更新并记录行数
       - name: Force Commit & Push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # 强制添加这两个文件
-          git add 10007.mrs version.txt
+          # 1. 自动计算 list.txt 的行数
+          LINES=$(wc -l < list.txt)
           
-          # 只要 version.txt 变了，这次提交就一定会成功！
-          git commit -m "Confirmed Update: $(date +'%Y-%m-%d %H:%M:%S')"
+          # 2. 强制添加文件（不管它变没变）
+          git add -f 10007.mrs
           
-          # 使用 --force 强制覆盖远程仓库
+          # 3. 把行数写进提交信息，这会让每次 Commit 都不一样
+          # 就算文件没变，Commit 信息变了，也会触发更新
+          git commit -m "Confirmed: ${LINES} lines [$(date '+%Y-%m-%d %H:%M:%S')]"
+          
+          # 4. 强制推送
           git push origin HEAD:${{ github.ref_name }} --force
