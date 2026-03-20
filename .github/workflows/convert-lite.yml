@@ -1,4 +1,4 @@
-name: Convert Ruleset-reward
+name: Convert Ruleset
 on:
   workflow_dispatch:
   schedule:
@@ -8,39 +8,37 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 必须加，否则无法推送
+      contents: write
 
     steps:
-    - name: Checkout代码
+    - name: Checkout
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-        persist-credentials: false
 
-    - name: 设置上海时区
+    - name: 设置时区
       run: |
         sudo rm -rf /etc/localtime
         sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
         date
 
-    - name: 下载 mihomo
+    - name: Download mihomo
       run: |
         curl -L -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
         gzip -d mihomo.gz
         chmod +x mihomo
 
-    - name: 生成域名列表
+    - name: Generate domain list
       run: |
-        curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
+        curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
 
-    - name: 构建 MRS 文件
+    - name: Build MRS
       run: ./mihomo convert-ruleset domain text list.txt 10007-lite.mrs
 
-    # 👇 这是修复核心：强制提交 + 强制推送，保证文件一定更新
     - name: Push changes
       run: |
         git config --global user.name "Auto Update"
         git config --global user.email "action@github.com"
         git add 10007-lite.mrs
         git commit -m "Update $(date '+%Y-%m-%d %H:%M')" --allow-empty
-        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+        git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
