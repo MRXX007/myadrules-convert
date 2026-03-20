@@ -1,4 +1,4 @@
-name: Convert Ruleset
+name: Convert Ruleset-reward
 on:
   workflow_dispatch:
   schedule:
