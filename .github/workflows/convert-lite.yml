@@ -37,12 +37,10 @@ jobs:
       run: ./mihomo convert-ruleset domain text list.txt 10007-lite.mrs
 
     # 👇 这是修复核心：强制提交 + 强制推送，保证文件一定更新
-    - name: 提交并推送更新
+    - name: Push changes
       run: |
-        git config --local user.name "GitHub Action"
-        git config --local user.email "action@github.com"
-        git add 10007-lite.mrs
-        # --allow-empty 保证即使文件无变化也能提交，强制更新时间戳
-        git commit -m "Auto Update $(date '+%Y-%m-%d %H:%M:%S')" --allow-empty
-        # 直接使用checkout时注入的凭证，无需额外配置token
-        git push
+        git config --global user.name "Auto Update"
+        git config --global user.email "action@github.com"
+        git add 10007.mrs
+        git commit -m "Update $(date '+%Y-%m-%d %H:%M')" --allow-empty
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
