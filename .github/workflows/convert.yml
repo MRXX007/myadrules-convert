@@ -2,7 +2,7 @@ name: Convert Ruleset-all
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *'  # 北京时间 11:00
+    - cron: '0 4 * * *'  # 北京时间 12:00
 
 jobs:
   run_convert:
@@ -25,32 +25,46 @@ jobs:
             # 生成域名列表 (加入随机参数绕过缓存)
       - name: Generate domain list
         run: |
-          # 使用 $(date +%s) 生成一个秒级时间戳，加在 URL 后面
-          curl -sL --retry 3 "https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all?v=$(date +%s)" | \
-          grep '^0\.0\.0\.0' | awk '{print $2}' | sort -u > list.txt
+          curl -s --retry 3 https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all -o all.txt
+          grep '^0\.0\.0\.0' all.txt | awk '{print $2}' | sort -u > list.txt
           
-          # 打印一下行数，在 Actions 日志里就能直接看到数量对不对
-          echo "当前抓取到的规则条数："
-          wc -l list.txt
+          # Debug: 显示源更新时间 + list.txt 前后变化线索
+          grep -E '^#更新时间' all.txt || echo "无更新时间注释"
+          echo "list.txt 行数: $(wc -l < list.txt)"
+          echo "list.txt 前5行:"
+          head -n 5 list.txt
+          echo "list.txt MD5: $(md5sum list.txt | cut -d' ' -f1)"
 
-      # 强制更新！
-      - name: Force Commit & Push
+      - name: Build MRS
         run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          ./mihomo convert-ruleset domain text list.txt 10007.mrs || { echo "转换命令失败！"; exit 1; }
           
-          # 1. 获取当前行数（用于 Commit 信息，确保每次提交内容都不同）
-          LINES=$(wc -l < list.txt)
-          
-          # 2. 【关键】先从 Git 缓存中删除 mrs，强迫 Git 重新识别它
-          git rm --cached 10007.mrs || echo "First time"
-          
-          # 3. 强制添加新生成的 mrs
-          git add -f 10007.mrs
-          
-          # 4. 提交。使用 --allow-empty 保证即使 Git 觉得没变也能成功
-          git commit -m "Confirmed: ${LINES} lines [$(date '+%Y-%m-%d %H:%M:%S')]" --allow-empty
-          
-          # 5. 强制推送到远程 main 分支
-          git push origin HEAD:main --force
+          # Debug: 检查输出文件
+          if [ -f 10007.mrs ]; then
+            echo "10007.mrs 大小: $(stat -c %s 10007.mrs) 字节"
+            echo "10007.mrs MD5: $(md5sum 10007.mrs | cut -d' ' -f1)"
+            # 如果 .mrs 支持查看头（mihomo 可能有 dump 命令，试试）
+            ./mihomo version || true
+          else
+            echo "MRS 文件没生成！"
+            exit 1
+          fi
 
+      - name: Commit & Push (即使没变也推，带源更新时间)
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          git add 10007.mrs list.txt all.txt   # 顺便加 all.txt 看源变化
+          
+          # 取源更新时间作为 commit 消息（即使 .mrs 没变，也能看到更新）
+          UPDATE_TIME=\( (grep -oP '^#更新时间: \K.*' all.txt || echo " \)(date '+%Y-%m-%d %H:%M:%S')")
+          
+          if git diff --cached --quiet; then
+            echo "文件无实质变化，但强制空 commit"
+            git commit --allow-empty -m "Daily Update MRS (源更新: $UPDATE_TIME) [no content change]"
+          else
+            git commit -m "Daily Update MRS (源更新: $UPDATE_TIME)"
+          fi
+          
+          git push origin HEAD:main || echo "Push 失败，看日志"
