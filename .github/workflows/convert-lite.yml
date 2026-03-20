@@ -1,40 +1,49 @@
-name: Convert-lite Ruleset
+name: Convert Ruleset
 on:
-  workflow_dispatch:  # 保留手动运行
+  workflow_dispatch:  # 手动触发
   schedule:
-    - cron: "0 3 * * *"  # 每天 UTC 3点 = 北京时间 11 点
+    - cron: '0 3 * * *'  # 每天 UTC 3:00 = 北京时间 11:00
+  push:
+    branches:
+      - main  # 每次推代码到main也自动跑，双重保险
 
 jobs:
   run_convert:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    steps:
-      - uses: actions/checkout@v4.2.2
+      actions: read  # 补充权限，避免权限不足
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
-      # 🔥 唯一不会失败的 mihomo 下载方式
+    steps:
+      - uses: actions/checkout@v4.3.0
+        with:
+          fetch-depth: 1
+          persist-credentials: true  # 确保提交权限正常
+
       - name: Download mihomo
         run: |
-          curl -L -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
-          # 解压！！！这一步你之前漏了！
+          curl -L --retry 5 --retry-delay 2 -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
           gzip -d mihomo.gz
-          # 加权限
           chmod +x mihomo
 
-      # 生成域名列表
       - name: Generate domain list
         run: |
-          curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
+          curl -s --retry 5 --retry-delay 2 https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward | \
+          grep -v '^#' | \
+          grep '^0\.0\.0\.0' | \
+          awk '{print $2}' | \
+          sort -u > list.txt
 
-      # 转换 MRS
       - name: Build MRS
         run: ./mihomo convert-ruleset domain text list.txt 10007-lite.mrs
 
-      # 提交
       - name: Save to Repo
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v9.1.4
         with:
-          message: "Update MRS"
+          message: "Daily Update MRS (Auto Schedule)"
           add: "10007-lite.mrs"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
+          signoff: false
