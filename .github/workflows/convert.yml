@@ -28,26 +28,27 @@ jobs:
           curl -s --retry 3 https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | \
           grep '^0\.0\.0\.0' | awk '{print $2}' | sort -u > list.txt
 
-            # 构建 MRS (先删除旧的，确保生成的是全新的)
+      # 构建 MRS
       - name: Build MRS
         run: |
+          # 1. 先彻底删除旧文件
           rm -f 10007.mrs
+          # 2. 生成新文件
           ./mihomo convert-ruleset domain text list.txt 10007.mrs
-          ls -lh 10007.mrs
+          # 3. 【关键】生成一个永远包含当前时间的文本文件
+          echo "Last sync: $(date)" > version.txt
 
-      # 👇 真正的强制更新逻辑
+      # 强制推送
       - name: Force Commit & Push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # 1. 强制将新生成的 mrs 加入暂存区
-          git add -f 10007.mrs
+          # 强制添加这两个文件
+          git add 10007.mrs version.txt
           
-          # 2. 无论内容是否变化，都强制提交
-          # --allow-empty 是为了防止 Git 认为内容没变而报错
-          git commit -m "Daily Update: $(date +'%Y-%m-%d %H:%M:%S')" --allow-empty
+          # 只要 version.txt 变了，这次提交就一定会成功！
+          git commit -m "Confirmed Update: $(date +'%Y-%m-%d %H:%M:%S')"
           
-          # 3. 强制推送到当前分支 (通常是 main)
-          # 使用 --force 确保覆盖远程文件
+          # 使用 --force 强制覆盖远程仓库
           git push origin HEAD:${{ github.ref_name }} --force
