@@ -1,49 +1,48 @@
 name: Convert Ruleset
 on:
-  workflow_dispatch:  # 手动触发
+  workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *'  # 每天 UTC 3:00 = 北京时间 11:00
-  push:
-    branches:
-      - main  # 每次推代码到main也自动跑，双重保险
+    - cron: '0 4 * * *'  # 北京时间12点
 
 jobs:
-  run_convert:
+  build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
-      actions: read  # 补充权限，避免权限不足
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      contents: write  # 必须加，否则无法推送
 
     steps:
-      - uses: actions/checkout@v4.3.0
-        with:
-          fetch-depth: 1
-          persist-credentials: true  # 确保提交权限正常
+    - name: Checkout代码
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        persist-credentials: false
 
-      - name: Download mihomo
-        run: |
-          curl -L --retry 5 --retry-delay 2 -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
-          gzip -d mihomo.gz
-          chmod +x mihomo
+    - name: 设置上海时区
+      run: |
+        sudo rm -rf /etc/localtime
+        sudo ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+        date
 
-      - name: Generate domain list
-        run: |
-          curl -s --retry 5 --retry-delay 2 https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward | \
-          grep -v '^#' | \
-          grep '^0\.0\.0\.0' | \
-          awk '{print $2}' | \
-          sort -u > list.txt
+    - name: 下载 mihomo
+      run: |
+        curl -L -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
+        gzip -d mihomo.gz
+        chmod +x mihomo
 
-      - name: Build MRS
-        run: ./mihomo convert-ruleset domain text list.txt 10007-lite.mrs
+    - name: 生成域名列表
+      run: |
+        curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
 
-      - name: Save to Repo
-        uses: EndBug/add-and-commit@v9.1.4
-        with:
-          message: "Daily Update MRS (Auto Schedule)"
-          add: "10007-lite.mrs"
-          committer_name: GitHub Actions
-          committer_email: actions@github.com
-          signoff: false
+    - name: 构建 MRS 文件
+      run: ./mihomo convert-ruleset domain text list.txt 10007.mrs
+
+    # 👇 这是修复核心：强制提交 + 强制推送，保证文件一定更新
+    - name: 提交并推送更新
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        git add 10007.mrs
+        git commit -m "Auto Update $(date '+%Y-%m-%d %H:%M:%S')" --allow-empty
+        git push --force
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
