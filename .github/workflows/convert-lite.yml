@@ -30,7 +30,7 @@ jobs:
 
     - name: Generate domain list
       run: |
-        curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
+        curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
 
     - name: Build MRS
       run: ./mihomo convert-ruleset domain text list.txt 10007-lite.mrs
