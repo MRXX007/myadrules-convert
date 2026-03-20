@@ -1,49 +1,42 @@
 name: Convert Ruleset
 on:
-  workflow_dispatch:  # 手动触发
+  workflow_dispatch:
   schedule:
-    - cron: '0 3 * * *'  # 每天 UTC 3:00 = 北京时间 11:00
-  push:
-    branches:
-      - main  # 每次推代码到main也自动跑，双重保险
+    - cron: '0 3 * * *'  # 北京时间 11:00
 
 jobs:
   run_convert:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      actions: read  # 补充权限，避免权限不足
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
-      - uses: actions/checkout@v4.3.0
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          persist-credentials: true  # 确保提交权限正常
 
+      # 下载 mihomo
       - name: Download mihomo
         run: |
-          curl -L --retry 5 --retry-delay 2 -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
+          curl -L --retry 3 -o mihomo.gz https://github.com/MetaCubeX/mihomo/releases/download/v1.19.21/mihomo-linux-amd64-compatible-v1.19.21.gz
           gzip -d mihomo.gz
           chmod +x mihomo
 
+      # 生成域名列表
       - name: Generate domain list
         run: |
-          curl -s --retry 5 --retry-delay 2 https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | \
-          grep -v '^#' | \
-          grep '^0\.0\.0\.0' | \
-          awk '{print $2}' | \
-          sort -u > list.txt
+          curl -s --retry 3 https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | \
+          grep '^0\.0\.0\.0' | awk '{print $2}' | sort -u > list.txt
 
+      # 构建 MRS
       - name: Build MRS
         run: ./mihomo convert-ruleset domain text list.txt 10007.mrs
 
-      - name: Save to Repo
-        uses: EndBug/add-and-commit@v9.1.4
-        with:
-          message: "Daily Update MRS (Auto Schedule)"
-          add: "10007.mrs"
-          committer_name: GitHub Actions
-          committer_email: actions@github.com
-          signoff: false
+      # 👇 强制更新！不管内容有没有变化，都提交！
+      - name: Force Commit & Push
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add 10007.mrs
+          git commit -m "Daily Update MRS [$(date '+%Y-%m-%d %H:%M:%S')]" --allow-empty
+          git push
