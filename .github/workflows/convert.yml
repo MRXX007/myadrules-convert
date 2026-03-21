@@ -1,4 +1,4 @@
-name: Convert Ruleset
+name: Convert Ruleset-all
 on:
   workflow_dispatch:
   schedule:
@@ -41,6 +41,4 @@ jobs:
         git config --global user.email "action@github.com"
         git add 10007.mrs
         git commit -m "Update $(date '+%Y-%m-%d %H:%M')" --allow-empty
-        git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}        git add 10007.mrs
-        git commit -m "Auto Update $(date '+%Y-%m-%d %H:%M')"
-        git push
+        git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
