@@ -30,15 +30,37 @@ jobs:
 
     - name: Generate domain list
       run: |
-        curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
+          # 1. 抓取并清洗数据：
+          # - grep 提取 0.0.0.0
+          # - awk 提取域名
+          # - sed 's/\.$//' 去掉域名末尾的句点（解决你日志里的 invalid domain 报错）
+          # - tr -d '\r' 去掉 Windows 换行符
+          curl -s -L "https://raw.githubusercontent.com/lingeringsound/10007_auto/master/reward" | \
+          grep '^0\.0\.0\.0' | awk '{print $2}' | sed 's/\.$//' | tr -d '\r' > list-lite.txt
+          echo "清洗后的规则行数："
+          wc -l list-lite.txt
 
     - name: Build MRS
-      run: ./mihomo convert-ruleset domain text list.txt 10007-lite.mrs
+      run: |
+          # 强制彻底清理旧文件
+          rm -f 10007-lite.mrs
+          ./mihomo convert-ruleset domain text list-lite.txt 10007-lite.mrs
+          echo "转换完成"
 
     - name: Push changes
       run: |
-        git config --global user.name "Auto Update"
-        git config --global user.email "action@github.com"
-        git add 10007-lite.mrs
-        git commit -m "Update $(date '+%Y-%m-%d %H:%M')" --allow-empty
-        git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add 10007-lite.mrs list-lite.txt
+          
+          # 这里的修改最关键：如果没变化，也强制提交一个空 commit，确保 Action 状态同步
+          if git diff --staged --quiet; then
+            echo "内容无变化，强制空提交以刷新仓库时间戳"
+            git commit -m "Keep alive: $(date '+%Y-%m-%d %H:%M')" --allow-empty
+          else
+            git commit -m "Update rules: $(date '+%Y-%m-%d %H:%M')"
+          fi
+          
+          # 使用 push -f 确保万无一失推送到 main 分支
+          git push origin HEAD:main --force
