@@ -33,12 +33,23 @@ jobs:
         curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
 
     - name: Build MRS
-      run: ./mihomo convert-ruleset domain text list.txt 10007.mrs
-
+      run: |
+        rm -f 10007.mrs # 强制删除旧文件确保重写
+        ./mihomo convert-ruleset domain text list.txt 10007.mrs
     - name: Push changes
       run: |
-        git config --global user.name "Auto Update"
-        git config --global user.email "action@github.com"
-        git add 10007.mrs
-        git commit -m "Update $(date '+%Y-%m-%d %H:%M')" --allow-empty
-        git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # 检查文件是否有变化
+          git add 10007.mrs list.txt
+          
+          # 如果没有变化就退出，不产生无意义的 commit
+          if git diff --staged --quiet; then
+            echo "No changes detected, skipping commit."
+            exit 0
+          fi
+
+          git commit -m "Update rules $(date '+%Y-%m-%d %H:%M')"
+          # 建议去掉 --force，使用普通 push
+          git push origin HEAD:${{ github.ref }}
