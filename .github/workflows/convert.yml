@@ -30,33 +30,37 @@ jobs:
 
     - name: Generate domain list
       run: |
-          # 1. 增加时间戳参数解决缓存问题
-          # 2. 同时打印行数，方便你在日志里直接看到抓取了多少条规则
-          curl -s "https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all?v=$(date +%s)" | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
-          echo "当前抓取到的规则行数："
+          # 1. 抓取并清洗数据：
+          # - grep 提取 0.0.0.0
+          # - awk 提取域名
+          # - sed 's/\.$//' 去掉域名末尾的句点（解决你日志里的 invalid domain 报错）
+          # - tr -d '\r' 去掉 Windows 换行符
+          curl -s -L "https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all" | \
+          grep '^0\.0\.0\.0' | awk '{print $2}' | sed 's/\.$//' | tr -d '\r' > list.txt
+          echo "清洗后的规则行数："
           wc -l list.txt
 
     - name: Build MRS
       run: |
-        # 强制删除旧文件，确保 mihomo 重新生成
-        rm -f 10007.mrs
-         ./mihomo convert-ruleset domain text list.txt 10007.mrs
-        echo "MRS 文件已生成"
+          # 强制彻底清理旧文件
+          rm -f 10007.mrs
+          ./mihomo convert-ruleset domain text list.txt 10007.mrs
+          echo "转换完成"
 
     - name: Push changes
       run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # 检查文件是否有变化
           git add 10007.mrs list.txt
           
-          # 如果没有变化就退出，不产生无意义的 commit
+          # 这里的修改最关键：如果没变化，也强制提交一个空 commit，确保 Action 状态同步
           if git diff --staged --quiet; then
-            echo "No changes detected, skipping commit."
-            exit 0
+            echo "内容无变化，强制空提交以刷新仓库时间戳"
+            git commit -m "Keep alive: $(date '+%Y-%m-%d %H:%M')" --allow-empty
+          else
+            git commit -m "Update rules: $(date '+%Y-%m-%d %H:%M')"
           fi
-
-          git commit -m "Update rules $(date '+%Y-%m-%d %H:%M')"
-          # 建议去掉 --force，使用普通 push
-          git push origin HEAD:${{ github.ref }}
+          
+          # 使用 push -f 确保万无一失推送到 main 分支
+          git push origin HEAD:main --force
