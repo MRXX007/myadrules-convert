@@ -30,8 +30,8 @@ jobs:
 
     - name: Generate domain list
       run: |
-        curl -s https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
-
+        curl -s "https://raw.githubusercontent.com/lingeringsound/10007_auto/master/all?v=$(date +%s)" | grep '^0\.0\.0\.0' | awk '{print $2}' > list.txt
+       
     - name: Build MRS
       run: |
         rm -f 10007.mrs # 强制删除旧文件确保重写
