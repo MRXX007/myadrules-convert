@@ -4726,6 +4726,7 @@ api.glance.inmobi.com
 api.growingio.com
 api.growthbeat.com
 api.growthpush.com
+api.haybet.ws
 api.hb8887.com
 api.hdbet.com
 api.hdtv.letv.com
@@ -6555,6 +6556,7 @@ echo-dnia.pro
 echoobywatelskie.pro
 echoportalowe.pro
 echowieczorne.pro
+echozblokowych.pro
 echozpodmorza.pro
 echozskweru.pro
 eclick.baidu.com
@@ -6805,6 +6807,7 @@ frwrz661fasv.n4.adsco.re
 frwrz661fasv.s4.adsco.re
 fs-uc-nearme-com-cn.oss-cn-hangzhou.aliyuncs.com
 ftp.dns-info.dyndns.pro
+fudelua.pro
 fumiad.dxys.pro
 fun-adx.admaster.com.cn
 fun.adx.admaster.com.cn
@@ -7607,7 +7610,6 @@ leadsynaptic.go2jump.org
 legjava.pro
 letv.axp.admaster.com.cn
 letv.m.cn.miaozhen.com
-leukoalbif.pro
 level.turboads.de
 lever-analytics.com
 lewymyt.pro
@@ -9744,6 +9746,7 @@ seks-partner.com
 sensors.snaptube.app
 seosoftware.onlinedownloads.org
 september.cityads.com
+serendiptyless.pro
 serpens.iad-01.braze.com
 serpens.iad.appboy.com
 serv-api.target2sell.com
@@ -10322,6 +10325,7 @@ teads.tv
 teads.tv.edgekey.net
 teads245638586802.s.moatpixel.com
 techain.baidu.com
+techartadverts.com
 techweb.iv.adsame.com
 teieqlpdr.mobi
 teinfo.wps.cn
@@ -10693,7 +10697,6 @@ umengacs.m.taobao.com
 umengcloud.com
 umengjmacs.m.taobao.com
 umid.orion.meizu.com
-unagladst.shop
 unconf.mobad.ijinshan.com
 unet.ucweb.com
 unidesk.alicdn.com
@@ -11385,7 +11388,6 @@ worker71.advertnative.com
 worker72.advertnative.com
 worker73.advertnative.com
 world.popadscdn.net
-worldmediaiqora.pro
 worldpulseiq.pro
 worldtrendingalert.pro
 worldwideupdates.pro
@@ -11858,6 +11860,7 @@ www.echo-dnia.pro
 www.echoobywatelskie.pro
 www.echoportalowe.pro
 www.echowieczorne.pro
+www.echozblokowych.pro
 www.echozpodmorza.pro
 www.echozskweru.pro
 www.eedclicks.ero-advertising.com
@@ -11925,6 +11928,7 @@ www.frontlinebulletinhub.pro
 www.frontlineflashreport.pro
 www.frontlinepulsewire.pro
 www.frontlinevanguardalert.pro
+www.fudelua.pro
 www.fxadviceformeandyou.com
 www.fyzoceu.pro
 www.game-advertising-online.com
@@ -12023,7 +12027,6 @@ www.lanzous.com
 www.lanzouz.com
 www.latestupdates.pro
 www.layers.ero-advertising.com
-www.leukoalbif.pro
 www.lewymyt.pro
 www.links-and-traffic.com
 www.liptonadventures.com
@@ -12280,6 +12283,7 @@ www.secure-verify-update.ddns.info
 www.security-update.ddns.info
 www.security-update.ocry.com
 www.security-update.qhigh.com
+www.serendiptyless.pro
 www.servedby-buysellads.com
 www.sesquipedaeie.pro
 www.seure-update.fartit.com
@@ -12341,6 +12345,7 @@ www.t-analytics.com
 www.talkingdata.com
 www.tcm.optica.ero-advertising.com
 www.techadvisorpro.name
+www.techartadverts.com
 www.teieqlpdr.mobi
 www.tejeadventur.fit
 www.tejeadventur.luxe
@@ -12395,7 +12400,6 @@ www.ukadvento.com
 www.ultimateinsights.pro
 www.umbs.ero-advertising.com
 www.umeng.com
-www.unagladst.shop
 www.universal-traffic.com
 www.update-information.zzux.com
 www.update-java.kit.net
@@ -12447,7 +12451,6 @@ www.wiki.ero-advertising.com
 www.winads.cn
 www.witnessinstantfeed.pro
 www.wks.ero-advertising.com
-www.worldmediaiqora.pro
 www.worldpulseiq.pro
 www.worldtrendingalert.pro
 www.worldwideupdates.pro
