@@ -164,6 +164,7 @@
 7r3cna.viqiyi.admaster.com.cn
 7r76oa.vyk.admaster.com.cn
 7r8a9a.viqiyi.admaster.com.cn
+7v8ver7f.1xgame.pro
 822.dlads.cn
 8b253a.vyk.admaster.com.cn
 8b26nu.viqiyi.admaster.com.cn
@@ -4489,8 +4490,6 @@ api-app.coocaa.ottcn.com
 api-c.dutils.com
 api-client.okvipworldcup.com
 api-d.dutils.com
-api-data-1234-s3-region-amazonaws-user.creampieoverload.com
-api-data-1234-s3-region-amazonaws-user.dayspring-store.com
 api-data-1234-s3-region-amazonaws-user.fitness-digest.com
 api-es.doglobal.net
 api-ext.mediav.com
@@ -4731,7 +4730,6 @@ api.home.skysrt.com
 api.htp.ad-scope.com.cn
 api.huq.io
 api.huqindustries.co.uk
-api.hypremia.com
 api.hzsanjiaomao.com
 api.ibeat-analytics.com
 api.idio.co
@@ -5387,6 +5385,7 @@ bigdata.advmob.cn
 bigetei.pro
 bigmobileads.com
 bingads.microsoft.com
+binkowski.pro
 birdgesdk.com
 bit-prolexi-pro.com
 bitcast-a.v1.iad1.bitgravity.com
@@ -5774,7 +5773,11 @@ cguke-9h64o.ads.tremorhub.com
 ch615.wx.11h5.com
 challenge.cityads.com
 chanalytics.merchantadvantage.com
+changenow.com-bloom-hub.pro
+changenow.com-direct-hub.pro
+changenow.com-free-pro.cyou
 channel.api.duapp.com
+chargenow.com-eco-io.pro
 chart.advinion.com
 chat.ero-advertising.com
 check-activity.com.ru
@@ -6294,6 +6297,7 @@ developers.cityads.com
 device-api.asnapieu.com
 device-api.urbanairship.com
 devs.data.mob.com
+dexyfui.pro
 df.mic.mob.com
 df.mob.com
 dfe.mic.mob.com
@@ -6533,6 +6537,7 @@ e.zg-api.com
 e0.extreme-dm.com
 e1.extreme-dm.com
 e2.extreme-dm.com
+e703cad0-1b37-4cd4-b3d6.tapscalafilepro.net
 ead-soft.popunder.ru
 eadsrv.com
 eagleasp.adsame.com
@@ -6773,7 +6778,6 @@ forum.ero-advertising.com
 forums.data2.ero-advertising.com
 forums.ero-advertising.com
 fota.advmob.cn
-fotocadvow.cyou
 fp-analytics.hotstar.com
 fp3.ads.stickyadstv.com.akadns.net
 fpa.ero-advertising.com
@@ -6801,7 +6805,6 @@ fumiad.dxys.pro
 fun-adx.admaster.com.cn
 fun.adx.admaster.com.cn
 fundingchoicesmessages.google.com
-fuotcd3b.futshart.pro
 fusion-iad-dev-clogs-eqbrmmvphc.elasticbeanstalk.com
 fusionads.net
 fw.adsafeprotected.com
@@ -7128,6 +7131,7 @@ huid.ad.360.cn
 hunantv-ipdx.cn.miaozhen.com
 hunantv.m.cn.miaozhen.com
 huodong.mobilem.360.cn
+huvateo.pro
 hvdbeutysale.pro
 hw-cdn-ap.trafficjunky.net
 hw-cdn.trafficjunky.net
@@ -7609,6 +7613,7 @@ leads.oceanengine.com
 leads.su
 leadspace.com
 leadsynaptic.go2jump.org
+lecypoe.pro
 legjava.pro
 letv.axp.admaster.com.cn
 letv.m.cn.miaozhen.com
@@ -7675,7 +7680,6 @@ lives.l.aiseet.atianqi.com
 lives.l.cp81.ott.cibntv.net
 lives.l.ott.video.qq.com
 lives.l.qq.com
-lk-ssgroup.pro
 lmadvertising.engine.adglare.net
 lnads.osdn.com
 load.instinctiveads.com
@@ -7937,7 +7941,6 @@ mjp-analytics.ximad.com
 mjxads.internet.com
 mkt-advertisement.tuhu.cn
 mktsound.cos.tx.xmcdn.com
-mlvgwjn.1xforward.pro
 mma.admaster.com.cn
 mmg.aty.cp45.ott.cibntv.net
 mms2017.admaster.com.cn
@@ -8154,7 +8157,6 @@ newsfeed-drcn.cloud.dbankcloud.com
 newsfeed-drcn.cloud.hihonorcloud.cn
 newsfeed-drcn.cloud.hihonorcloud.com
 newsfluxion.pro
-newsorbitnova.pro
 newsyoucanread24.com
 nex.163.com
 ng3.ads.warnerbros.com
@@ -8862,13 +8864,11 @@ podslychanezzakretu.pro
 podslychanezzakretuulicylodzkiej.pro
 podslychanezzatokanki.pro
 podslyszaneo.pro
-podslyszanesrodka.pro
 podslyszanezautobusu.pro
 podslyszanezlawkii.pro
 podslyszanezparapetu3.pro
 podslyszanezparapetuobokdrzwisciany.pro
 podslyszanezpoczekalnilekarskiej.pro
-podslyszanezpodworka2.pro
 podslyszaneztramwaju.pro
 podslyszanezzamykanychdrzwi.pro
 pokkt.fuse-ad.com
@@ -9003,7 +9003,6 @@ publishers.domainadvertising.com
 puds.test.uae.uc.cn
 pulchritueoa.pro
 pulse.data.flurry.com
-pulslokalu.pro
 pulsportalowy.pro
 puma-api.iqiyi.com
 puma.api.iqiyi.com
@@ -9045,6 +9044,7 @@ q017o-jh7o1.ads.tremorhub.com
 q1.cnzz.com
 q12.cnzz.com
 q14.cnzz.com
+q3g84ost.22beet.pro
 qa-analytics.com
 qadsrftgvcx.site
 qapm.baidu.com
@@ -9749,6 +9749,7 @@ segment-api.humann.com
 segment.api.useinsider.com
 sejs.moatads.com
 seks-partner.com
+sell-ukaldi.cadsualblouses.com
 sensors.snaptube.app
 seosoftware.onlinedownloads.org
 september.cityads.com
@@ -9860,6 +9861,7 @@ sina.di2y21.top
 sina.mediav.com
 single.upsight-api.com
 sirius.iad-03.braze.com
+siroamolten.pro
 site.e.mi.com
 siteadvisor.com-br.site
 sitemonitor.cn.miaozhen.com
@@ -10241,6 +10243,7 @@ syndication.realsrv.com
 syndication.traffichaus.com
 syndication.trafficreps.com
 syzbh66.xyz
+syzygyiao.pro
 t-ads.adap.tv
 t-ads.xiaohongshu.com
 t-e.flyme.cn
@@ -10351,7 +10354,6 @@ temp.163.com
 ten.sngapm.qq.com
 tencent-dtv.m.cn.miaozhen.com
 ter-adserver-origin-ap.prod.adtechjp.com
-terraqspark.pro
 test.ad.xiaomi.com
 test.adsp.xunlei.com
 test.bricks.e.qq.com
@@ -10826,7 +10828,6 @@ utop.umengcloud.com
 utp-dmp.ucweb.com
 utp.ucweb.com
 uusee.adsame.com
-uusqctu.eurojet.pro
 uxip-res.meizu.com
 uxip.meizu.com
 v.adintl.cn
@@ -11341,6 +11342,7 @@ weixin.renrenying.com
 wejuxee.pro
 wemamsdkkwioweioadi.site
 wenku-cms.bj.bcebos.com
+wep-open.wpdevcloud.com
 wer.qdwght.com
 weriadokweosdko.site
 wesewsisdofisdkiad.site
@@ -11351,7 +11353,6 @@ whaleads.com
 whatsitsnameaui.pro
 widget.cleverads.vn
 wiescinadrannych.pro
-wiescipl24.pro
 wiesciredakcja.pro
 wifi.ads.oppomobile.com
 wifiads.cleverads.vn
@@ -11671,11 +11672,8 @@ www.analytics.ero-advertising.com
 www.analytics.icons8.com
 www.analytics.picsart.com
 www.anners.ero-advertising.com
-www.api-data-1234-s3-region-amazonaws-user.creampieoverload.com
-www.api-data-1234-s3-region-amazonaws-user.dayspring-store.com
 www.api-data-1234-s3-region-amazonaws-user.fitness-digest.com
 www.api.axiatraders.com
-www.api.hypremia.com
 www.api.taboola.com
 www.arcpointgroup.pro
 www.asdkdpd.buzz
@@ -11719,6 +11717,7 @@ www.bettertextads.com
 www.bigbangads.go2cloud.org
 www.bigetei.pro
 www.bingads.microsoft.com
+www.binkowski.pro
 www.bit-prolexi-pro.com
 www.bitcoinsmarter-pro.com
 www.bitcoinup-pro.com
@@ -11826,6 +11825,7 @@ www.dctrk.datedeskads.com
 www.deta.ero-advertising.com
 www.detailedanalysis.pro
 www.dewcoreaj.pro
+www.dexyfui.pro
 www.dia-traffic.com
 www.dinexura-pro.com
 www.dinijye.pro
@@ -11924,7 +11924,6 @@ www.forex-advice.net
 www.forum.ero-advertising.com
 www.forums.data2.ero-advertising.com
 www.forums.ero-advertising.com
-www.fotocadvow.cyou
 www.fpa.ero-advertising.com
 www.frontlinebulletin.pro
 www.frontlinebulletinhub.pro
@@ -11978,6 +11977,7 @@ www.hit-counter-download.com
 www.hot-mob.com
 www.hotdogsandads.com
 www.hufywoi.pro
+www.huvateo.pro
 www.hvdbeutysale.pro
 www.hylavyo.pro
 www.idspaces.ero-advertising.com
@@ -12036,11 +12036,11 @@ www.latestupdates.pro
 www.laxabou.pro
 www.layers.ero-advertising.com
 www.lazajuy.pro
+www.lecypoe.pro
 www.lewymyt.pro
 www.links-and-traffic.com
 www.lisimya.pro
 www.liverollads.com
-www.lk-ssgroup.pro
 www.loadsabingo.com
 www.loginssl-dns.bv-seniorenbad.de
 www.losijiy.pro
@@ -12095,7 +12095,6 @@ www.nevadasportsadvisors.info
 www.newhold.pro
 www.newlookstories.pro
 www.newsfluxion.pro
-www.newsorbitnova.pro
 www.newsyoucanread24.com
 www.ngads.com
 www.nibapee.pro
@@ -12194,13 +12193,11 @@ www.podslychanezzakretu.pro
 www.podslychanezzakretuulicylodzkiej.pro
 www.podslychanezzatokanki.pro
 www.podslyszaneo.pro
-www.podslyszanesrodka.pro
 www.podslyszanezautobusu.pro
 www.podslyszanezlawkii.pro
 www.podslyszanezparapetu3.pro
 www.podslyszanezparapetuobokdrzwisciany.pro
 www.podslyszanezpoczekalnilekarskiej.pro
-www.podslyszanezpodworka2.pro
 www.podslyszaneztramwaju.pro
 www.podslyszanezzamykanychdrzwi.pro
 www.polskagdziennie.pro
@@ -12232,7 +12229,6 @@ www.pro.cn
 www.proadscdn.com
 www.properrayam.pro
 www.pulchritueoa.pro
-www.pulslokalu.pro
 www.pulsportalowy.pro
 www.purnyagole.pro
 www.qadsrftgvcx.site
@@ -12292,6 +12288,7 @@ www.secure-verify-update.ddns.info
 www.security-update.ddns.info
 www.security-update.ocry.com
 www.security-update.qhigh.com
+www.sell-ukaldi.cadsualblouses.com
 www.serendiptyless.pro
 www.servedby-buysellads.com
 www.sesquipedaeie.pro
@@ -12302,6 +12299,7 @@ www.share-server.com
 www.shop-dm.shop
 www.silverpeakdeskv.pro
 www.sin.ero-advertising.com
+www.siroamolten.pro
 www.slimads.vn
 www.sluchajpl.pro
 www.smartadserver.com
@@ -12349,6 +12347,7 @@ www.sygnalportalowy.pro
 www.sygnalredakcji.pro
 www.sygnalzredakcji.pro
 www.syndication.exdynsrv.com
+www.syzygyiao.pro
 www.t-analytics.com
 www.talkingdata.com
 www.tcm.optica.ero-advertising.com
@@ -12359,7 +12358,6 @@ www.tejeadventur.fit
 www.tejeadventur.luxe
 www.tejeadventur.wiki
 www.temeorufgan.pro
-www.terraqspark.pro
 www.tex.ero-advertising.com
 www.text-link-ads.com
 www.textlinkads.com
@@ -12453,6 +12451,7 @@ www.webflashreportdaily.pro
 www.websdiidoadsfuiwrirjsif.site
 www.wejuxee.pro
 www.wemamsdkkwioweioadi.site
+www.wep-open.wpdevcloud.com
 www.weriadokweosdko.site
 www.wesewsisdofisdkiad.site
 www.westfieldfocus.pro
@@ -12460,7 +12459,6 @@ www.westreclameadvies.nl
 www.whalecashads.com
 www.whatsitsnameaui.pro
 www.wiescinadrannych.pro
-www.wiescipl24.pro
 www.wiesciredakcja.pro
 www.wiki.ero-advertising.com
 www.winads.cn
@@ -12486,6 +12484,7 @@ www.xadsmart.com
 www.xelvaroqin.pro
 www.xisubya.pro
 www.xn--adspace-kvg.ero-advertising.com
+www.xoqyceo.pro
 www.yesterdayadv.buyfastservice.com
 www.yoads.net
 www.youripad4free.com
@@ -12497,7 +12496,6 @@ www.zblokowegokorytarzauboczu.pro
 www.zblokowegoprzejscia.pro
 www.zblokowegoprzejsciawkatowicach.pro
 www.zblokowegowychoduzwindyoczekujac.pro
-www.zicodey.pro
 www.zijuqie.pro
 www.zinoair.pro
 www.zklatkischodowejzbetonu.pro
@@ -12513,7 +12511,6 @@ www.zprzedwejsciawblokuzboku.pro
 www.zprzystankuautobus.pro
 www.zsasiadkiejlawy.pro
 www.zszkolnegokorytarza.pro
-www.zszkolnejlawy.pro
 www.zszkolnejszatni.pro
 www.zuhigyf.pro
 www.zunduarex.pro
@@ -12624,6 +12621,7 @@ xn--pan-ei9e.xn--baidu-jm6h.com
 xn--pan-eixe.xn--baidu-jm6h.com
 xo88.pro
 xoada0pzosa.appspot.com
+xoqyceo.pro
 xratt15.sky1818.net
 xsapp.cdn.bcebos.com
 xunlei.adx.admaster.com.cn
@@ -12724,11 +12722,11 @@ zblokowegowychoduzwindyoczekujac.pro
 zdads.e-media.com
 zeus.ad.intl.xiaomi.com
 zeus.ad.xiaomi.com
+zgfnygu.prozhe.download
 zgsdk.zhugeio.com
 zhanzhang.toutiao.com
 zhihu-web-analytics.zhihu.com
 zhushou.2345.com
-zicodey.pro
 zijuqie.pro
 zinoair.pro
 zion-telemetry.api.cnn.io
@@ -12764,7 +12762,6 @@ zs8.cnzz.com
 zs9.cnzz.com
 zsasiadkiejlawy.pro
 zszkolnegokorytarza.pro
-zszkolnejlawy.pro
 zszkolnejszatni.pro
 ztoken.uyunad.com
 zuhigyf.pro
