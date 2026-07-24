@@ -1351,6 +1351,7 @@ adnxs-simple.com
 adnxs.revsci.net
 ado.pro-market.net
 adobe-dns.adobe.com
+adobe-esign.ams3.cdn.digitaloceanspaces.com
 adobe-flashplayer.com
 adobe-sync.dotomi.com
 adobe.112.2o7.net
@@ -3983,7 +3984,6 @@ ae.adserver.yahoo.com
 ae.bdstatic.com
 ae.iads.unity3d.com
 aecpm.alicdn.com
-aeiyi.jetbet.download
 aerovoltprox.pro
 aeventlog.beacon.qq.com
 aexception.bugly.qq.com
@@ -4059,7 +4059,6 @@ altiorainvest.pro
 altrenix-ordre.pro
 ama.adwo.com
 amazon-adsystem.com
-ambergrovereport.pro
 ambiorax-ai-pro.com
 amdcopen.m.taobao.com
 amer.rel.msn.com
@@ -5190,6 +5189,7 @@ aurellitopro8-2.pro
 aurentcore.pro
 aureviacapitalai.pro
 aurixiontrust.pro
+auronix-pro.live
 auth-check.byethost31.com
 auth-code-check.info
 auth-google.site
@@ -5449,6 +5449,8 @@ bitcast-a.v1.iad1.bitgravity.com
 bitcoineverest.pro
 bitcoinquantumai.pro
 bitcoinup-pro.com
+bitradexpolska.pro
+bitzenapp-pro.live
 biz.live.xunlei.com
 bj.ad.track.66mobi.com
 bj.appsrv1.madserving.com
@@ -5462,6 +5464,7 @@ bktr2-06hdl.ads.tremorhub.com
 bla.gtimg.com
 blackridgefinmark.pro
 blatfee.ero-advertising.com
+blazingscoopalert.pro
 blisspoint.us-east-1.stinger-ad.bidr.io
 blisspoint.us-west-2.stinger-ad.bidr.io
 blizonprecisie.pro
@@ -5497,6 +5500,7 @@ borsixgpt.pro
 boruloy.pro
 botuu.adsame.com
 bounceads.net
+bovirentix-fin.pro
 boxadstop.com
 bp.mobad.ijinshan.com
 bqgimgs1.cdn.bcebos.com
@@ -5507,17 +5511,22 @@ brasilrendagpt.pro
 bravexilini.pro
 breadsandwiches.com
 breakingbriefwire.pro
+breedrendeholm.pro
+brekutiosai.pro
 brekutiossoftware.pro
 bricks.e.qq.com
 bridgeoos.com
 brightcapitgate.pro
 brightpayplus.pro
+brightvaultmere.pro
+brightyieldsystem.pro
 brimax-edge.pro
 briovexaria.pro
+britanniaedgeai.pro
+britkonedgeval.pro
 britstrade67-ai.com
 bro.flyme.cn
 broadspring.com
-broadstonejournal.info
 broadstreetads.com
 bronrt.stsdk.vivo.com.cn
 brort.stsdk.vivo.com.cn
@@ -5536,6 +5545,7 @@ brprt.stsdk.vivo.com.cn
 bs-meta.yandex.ru
 bs.l.qq.com
 bs.yandex.ru
+bsfiosfskdosfkadoisdka.site
 bskn.pro
 bss.pandora.xiaomi.com
 btc-adverant-224-ai.com
@@ -5543,8 +5553,11 @@ btc-adverant-ai.com
 btc-adverant.live
 btc-adverant224.live
 btc-axiomax.pro
+btc-belant17.pro
+btc-glamit-365.live
 btc-protocol-z960.pro
 btc-vindici11.pro
+btcadverant.digital
 btcapnstad.pro
 btcblunex.pro
 btcgenix9.pro
@@ -5563,6 +5576,7 @@ buysellads.com
 buzzingheadlinehub.pro
 bwp.download.com
 bypass.ad-stir.com
+byteroxe.pro
 c-adash.m.taobao.com
 c.aaxads.com
 c.ad-srv.co
@@ -5673,7 +5687,6 @@ carinus.iad-03.braze.com
 cash-advance.now-cash.com
 cata.ero-advertising.com
 catalog.video.msn.com
-cazadsjisoopeiirito.site
 cb.alimama.cn
 cb.baidu.com
 cb.l.qq.com
@@ -5873,7 +5886,6 @@ check-konta.vercel.app
 check-my-violations2026.netlify.app
 check-tcp.rayjump.com
 check.rayjump.com
-check.zrntz.com
 checker.cityads.com
 chey-luxe-platform.pro
 chiara-fondenza.pro
@@ -6064,6 +6076,7 @@ clkservice.mail.youdao.com
 clkservice.union.youdao.com
 clkservice.youdao.com
 clkservice2.dict.youdao.com
+clorevalmeris.pro
 clorevalmerisia.pro
 cloud-emea.analytics-egain.com
 cloud-us.analytics-egain.com
@@ -6356,6 +6369,7 @@ decenterads.com
 deepreserveholm.pro
 default.cn.sz.wagbridge.ad.alibabacorp.com
 default.cn.wagbridge.ad.alibabacorp.com
+defersdsdiosdkksdoapkd.site
 delb.mspaceads.com
 deliver.ads2.iid.jp
 deliver.ads3.iid.jp
@@ -6479,7 +6493,6 @@ dolphin-center.adsame.com
 dominionvalnex.pro
 donaraai.pro
 donaraaiadvertencia.live
-doniesieniaporanku.pro
 dorevance.pro
 dorpcetnaeli.pro
 doubleclick.com
@@ -6611,7 +6624,6 @@ dynamic-dns.net
 dynsrv.wps.cn
 dyrycuy.pro
 dz.mmstat.com
-dziennikwejscia.pro
 e-ad-monitor.huya.com
 e-ads.eqads.com
 e-goblin.hupu.com
@@ -6659,7 +6671,6 @@ edchargina.pro
 edge.analytics.brightedge.com
 edge.metroleads.com
 edgexads.com
-edtbi.jetbet.download
 edu-ad-test-cdn.cdn.bcebos.com
 eduardorodrigues.adv.br
 eedclicks.ero-advertising.com
@@ -7055,7 +7066,6 @@ global-websis.api.engagelab.cc
 global.adserver.yahoo.com
 global.msads.net
 globalapi.ad.xiaomi.com
-globalinfion.pro
 globalmonitorstreamv.pro
 globalnewshub.pro
 globalwatchdailypulse.pro
@@ -7183,6 +7193,7 @@ hdns.ksyun.com
 hdt.adx.admaster.com.cn
 health-partner.net
 helmmarginvale.pro
+helmorixy-app.pro
 help.cnzz.com
 help.juicyads.com
 hercules.iad.appboy.com
@@ -7286,7 +7297,6 @@ hxtryxstorm.pro
 hybl9bazbc35.pflexads.com
 hybridclient.naiadsystems.com
 hyfokui.pro
-hylavyo.pro
 hyperads.gotrackier.com
 hypesquad-apply.ml
 hysdkservice.g.mi.com
@@ -7454,7 +7464,9 @@ imgs.jads.co
 imgx.mediav.com
 immdiateaion-ai.pro
 immediateai-pro.com
+immediateapp.pro
 immediatefund.pro
+immediatet6avenium.pro
 immediatex7-relpax.pro
 immutableazopt-pro.com
 imp-toutiao-data.37.com.cn
@@ -7487,6 +7499,7 @@ inferna.iad-03.braze.com
 infinite-ads.com
 infiniti.cityads.com
 infinityads.com
+infinityprofitai-pro.com
 info.adspruce.com
 info.wps.cn
 infocenter.meizu.com
@@ -7523,6 +7536,7 @@ instant9bferon.pro
 instantadvantageai.club
 instantcodrixfin.pro
 instantedexneo.pro
+instantimitrexark.pro
 insulevel24.pro
 integralwall.baidu.com
 intellariotradeproapp.pro
@@ -7592,6 +7606,7 @@ jcdn.jsoid.com
 jellyfish.pandora.xiaomi.com
 jenno.adsb4all.com
 jentoravix.pro
+jeuisospkdoosdkado.site
 jezgravireon.pro
 jf.winads.cn
 jfdaily.adsame.com
@@ -7604,6 +7619,7 @@ jinkads.de
 jioads.akamaized.net
 jipinyouwu.com
 jira.vlion.cn
+jisoofjwkksifosdkdal.site
 jivakee.pro
 jivevyu.pro
 jizzads.com
@@ -7650,6 +7666,7 @@ js2.ad-stir.com
 jsc.adskeeper.co.uk
 jsc.adskeeper.com
 jserr.cnzz.com
+jsiopakdipadpadsi.site
 jsmedia.adsame.com
 jsqmt.qq.com
 jssdk.cnzz.com
@@ -7683,6 +7700,7 @@ jupiter.appads.com
 jupiter1.appads.com
 jupiter2.appads.com
 jupiter3.appads.com
+jusidosdkwerpweldsp.site
 justabolsarente.pro
 justasolvendaria.pro
 justwebads.com
@@ -7697,6 +7715,8 @@ k88.pro
 kadmimage.biz.weibo.com
 kapitalbro.pro
 kapitalden.pro
+kapitalviresta.pro
+kapitangesoftware.pro
 kapterzora-app.pro
 kapterzoraki.pro
 kapwecs.pro
@@ -7727,10 +7747,9 @@ koersaven.pro
 kompasads.com
 kordowasoft.pro
 kpstaticbj.wx.ckjr001.com
+kraftixsurge.pro
 kralfinexis-app.pro
 krolfondstvo.pro
-kronikablokowa.pro
-kronikawieczorow.pro
 kruvestalsystem.pro
 kruxprofitaru.pro
 kskofpsdklsfpsfsfkl.site
@@ -7743,11 +7762,13 @@ kuaishouad.cn
 kubet.mobi
 kuchynemlejnek.pro
 kudohau.pro
+kuvrothelx-app.pro
 kv-analytics.kiotviet.vn
 kvelmoryq-pro.com
 kvinit-prod.api.kochava.com
 kwurl.ucweb.com
 kyson.ad.daum.net
+kyvraspark.pro
 kz.admaster.com.cn
 l.fancyapi.com
 l.gm.mob.com
@@ -7862,7 +7883,6 @@ livec.l.qq.com
 livem.l.qq.com
 livep.l.aiseet.atianqi.com
 livep.l.qq.com
-liverollads.com
 lives.l.aiseet.atianqi.com
 lives.l.cp81.ott.cibntv.net
 lives.l.ott.video.qq.com
@@ -8202,8 +8222,8 @@ monitoring-sdk.experimentation.intuit.com
 montervix-max.pro
 mores.toponad.com
 mostat.wps.cn
-moszp.jetbet.download
 motu.p4p.sina.com.cn
+motufondura.pro
 mou.niu.xunlei.com
 mouads.com
 moveliscore9-2.pro
@@ -8260,6 +8280,7 @@ mvas.cityads.com
 mvconf.cloud.360safe.com
 mvconf.lato.cloud.360safe.com
 mvconf.uk.cloud.360safe.com
+mvortixtrade72.live
 mvp.mediav.com
 mw-encyclopediabritannica.adsbynimbus.com
 mw.adwo.com
@@ -8316,6 +8337,7 @@ naftotechcora.pro
 naiadsystems.com
 najasiodsdksdiadkodsi.site
 nameketathar.pro
+naseadkdopadsdaksae.site
 nashira.iad-06.braze.com
 nasviclorum.pro
 nasywey.pro
@@ -8370,6 +8392,7 @@ newsfeed-drcn.cloud.dbankcloud.com
 newsfeed-drcn.cloud.hihonorcloud.cn
 newsfeed-drcn.cloud.hihonorcloud.com
 newsfluxion.pro
+newspolnd.pro
 newsradard.pro
 newsyoucanread24.com
 nex.163.com
@@ -8385,7 +8408,6 @@ nht-2.extreme-dm.com
 nht-3.extreme-dm.com
 nhz.adwo.com
 nibapee.pro
-nightingalenurseadvocacy.com
 nine-a.p.adnxs.com
 nivolayremz.pro
 nl-geo.cityads.com
@@ -8401,6 +8423,7 @@ no.adserver.yahoo.com
 nobilrendante.pro
 node.gameads.io
 nodribalyem.pro
+nordiwertixd-app.pro
 norqelaxisai.pro
 northbaybriefq.pro
 notepad2.com
@@ -8411,7 +8434,6 @@ noticierolive.pro
 notification-browser.com
 novaonads.com
 novarisai.pro
-nowinybiezace.pro
 nowinyzklatki.pro
 ns-strategy.cdn.bcebos.com
 ns1.cnzz.com
@@ -8558,6 +8580,7 @@ orovaldexia-pro.com
 orpixel.adsafeprotected.com
 ort-stsdk.vivo.com.cn
 ort.stsdk.vivo.com.cn
+orveztil.pro
 oryj8-jzbmc.ads.tremorhub.com
 oss.cdn.adintl.cn
 ot7.wagbridge.advertisement.tanx.com
@@ -8567,6 +8590,7 @@ otheve.beacon.qq.com
 otheve.play.aiseet.atianqi.com
 othstr.beacon.qq.com
 othstr.play.aiseet.atianqi.com
+ouluvoittvex.pro
 oumax.oupeng.com
 ouplog.umeng.com
 out.popads.net
@@ -8578,7 +8602,6 @@ outcome-ssp.supersonicads.com
 outcome.supersonicads.com
 overflow.adsoftware.com
 ovjadxdcoad.com
-ovzdi.jetbet.download
 ow-gateway.supersonicads.com
 owads.audioadx.com
 owl.proadscdn.com
@@ -9009,11 +9032,11 @@ pic2.bloggerads.net
 piccdn.bloggerads.net
 picture-uploads.com
 pilipali.cc
+pilnamajetencja.pro
 pilot-ad.flurry.com
 pilot-api.flurry.com
 pilot-data.flurry.com
 pimicae.pro
-pinevalleyview.pro
 pinger.ads.nexage.com
 pinterest.adsymptotic.com
 pitaya.bytedance.com
@@ -9062,11 +9085,9 @@ pnrt.stsdk.vivo.com.cn
 pobierzteraz.mobi
 podslychanezlawkiobokfontannynaosiedlu.pro
 podslychanezlawkiprzedkioskiemruchem.pro
-podslychanezokiennicyprzyjezdni.pro
 podslychanezparteruobokpiekarni.pro
 podslychanezzaciemnionegoprzejscia.pro
 podslychanezzakamiennegoprzejsciaulicy.pro
-podslychanezzakretuulicylodzkiej.pro
 podslyszanezparapetuobokdrzwisciany.pro
 podslyszanezparapetuobokpiekarninowej.pro
 podslyszanezpralkiwpiwnicznejobokklatki.pro
@@ -9075,7 +9096,6 @@ policy.video.iqiyi.com
 polxeon-pro.com
 polymorphicads.jp
 polzentra.pro
-pomiedzyblokami.pro
 pop-dev.ad4game.com
 pop.ero-advertising.com
 pop.redirect.adsjudo.com
@@ -9159,6 +9179,7 @@ prod.cm.publishers.advertising.a2z.com
 prod.pr.analytics.console.aws.a2z.com
 prod.pw.analytics.console.aws.a2z.com
 profile-api-prod-elb.53.localytics.com
+profitivofundexo.pro
 programadeinversion.pro
 progressive.lp.mydas.mobi
 projectorreviews.advertserve.com
@@ -9292,6 +9313,7 @@ quixoticty.pro
 quixotruie.pro
 qumvestiumai.pro
 qurl.f.360.cn
+qwkooasdksdoadkd.site
 qynxiliur.pro
 qzs.gdtimg.com
 r-ad.ne.jp
@@ -9312,6 +9334,7 @@ rad.live.com
 rad.msn.com
 rad.reporo.net
 raddus.bayescom.com
+rade-platform.pro
 radio.stickyadstv.com
 rads.msn.com
 rads.stackoverflow.com
@@ -9320,7 +9343,6 @@ rampidads.com
 randwealthgrove.pro
 randwiseinvestments.pro
 rangoopularis-pro.com
-raportobywateli.pro
 raportyzosiedla.pro
 rata.ero-advertising.com
 rationalan.pro
@@ -9456,7 +9478,6 @@ rmpad.imtt.qq.com
 roadsflower.tradethishouse.com
 robotrader-pro.com
 roimedia.advertserve.com
-rolomonads.com
 rosemand.pro
 roster.pro
 rotanev.iad-03.braze.com
@@ -9798,6 +9819,7 @@ scar.unityads.unity3d.com
 scdn.cxense.com
 scdn.eclick.vn
 scene.vip.xunlei.com
+schildvaultaris.pro
 sclick.baidu.com
 sconf.f.360.cn
 scribe.twitter.com
@@ -9982,9 +10004,11 @@ semanticspreadsheet.com
 sensorflarexxp.pro
 sensors.snaptube.app
 senwixpump.pro
+seoacademy.pro
 seosoftware.onlinedownloads.org
 september.cityads.com
 serendiptyless.pro
+sereno-luxentis-pro.com
 serpens.iad-01.braze.com
 serpens.iad.appboy.com
 serv-api.target2sell.com
@@ -10153,6 +10177,7 @@ smt.admaster.com.cn
 smtp.ero-advertising.com
 snapads.com
 snapherplexhub.pro
+snkerlads.com
 snssdk1233.onelink.me
 so.sina.cn
 sobar.baidu.com
@@ -10435,9 +10460,7 @@ su.bdstatic.com
 subaruadventure.com
 subwayfranchiseeadvertising.sc.omtrdc.net
 suelto-creditante.pro
-sufasii.pro
 summit-finluxor.pro
-summitgrovehub.pro
 summitvalnexapp.pro
 sumo.ad
 suncrestvarlon.pro
@@ -10624,7 +10647,6 @@ techartadverts.com
 techweb.iv.adsame.com
 teinfo.wps.cn
 tejeadventur.fit
-tejeadventur.wiki
 tel3adv.112.2o7.net
 telemetry-cii.api.playstation.com
 telemetry.api.swiftkey.com
@@ -10666,6 +10688,7 @@ theadsparks.com
 theadvertiser.us.intellitxt.com
 theholidayroads.com
 thepadvegas.com
+thetraveller.pro
 thind.unityads.unity3d.com
 this.content.served.by.adshuffle.com
 thumb.ero-advertising.com
@@ -10760,7 +10783,6 @@ topdownloads.nl.intellitxt.com
 tophippo.vlion.cn
 toponad.com
 topstorybreak.pro
-tormin.pro
 toroadvertisingmedia.com
 tosv.boe.byted.org
 tosv.byted.org
@@ -10851,12 +10873,15 @@ tracking2.propellerads.com
 tracy.tutoads.tv
 trade350-app.com
 trade360.com
+trade8iplex.live
 tradearabia.advertserve.com
 tradementor-pro.shop
 tradepro-engine.pro
 traderaiapp.pro
 traderflix9gpt-pro.com
+tradex-ai.pro
 tradingen-vivoapp.pro
+tradven.digital
 tradvioai.live
 tradvioapp.live
 traffic-bam.link
@@ -10895,6 +10920,7 @@ trc.adsage.com
 trends.mobile.sina.cn
 treviloxanopro.pro
 trioadvisor.fr
+tripadvisor.pre-approved-83945n.live
 trivaxonvelquant.pro
 trk-pcweb.api.zaloapp.com
 trk.4ff.pro
@@ -10905,6 +10931,7 @@ trkprod.upst86.com
 troubleshoot-ad-account-issues.edgeone.dev
 trourted.pro
 trueledgewick.pro
+truthgridmax.pro
 ts.amazon-adsystem.com
 tsdflsdk.cypcb.net
 tt.agrantsem.com
@@ -11018,6 +11045,7 @@ unityads.unity.cn
 unityads.unity3d.com
 unityads.unity3d.com.edgekey.net
 unityads.unitychina.cn
+universalesdeskandia.pro
 unstat.baidu.com
 untavix.pro
 uol-bitfundix.pro
@@ -11239,6 +11267,7 @@ vdapprecv.app.cntvwb.cn
 veads.veinteractive.com
 veim.lrswl.com
 vela.iad-01.braze.com
+velario-trace.org
 velbraynexus-pro.com
 veldluxaris.pro
 velocidad-luxten.pro
@@ -11607,6 +11636,7 @@ wahacondrax.iad-03.braze.com
 wahytui.pro
 walle.bayescom.com
 wallet.advcash.com
+walutura.pro
 wan.2345.com
 wan.adk2x.com
 wangmeng.baidu.com
@@ -11614,6 +11644,7 @@ wap.hot-mob.com
 wapomua.pro
 wapwbclick.mobile.sina.cn
 warren-ai-pro-engine.com
+warren-ai-pro.com
 wat.ad.daum.net
 wataads.com
 watch.advertising.speed.cdn.vip.xunlei.com
@@ -11656,6 +11687,7 @@ websdk.moengage.com
 websgsadvert.sanguosha.com
 webview.unityads.unity3d.com
 wedadosasdkweoewq.site
+weerewndksdosdkwe.site
 weggaintra.pro
 weishi.baidu.com
 weixin.renrenying.com
@@ -11664,11 +11696,12 @@ wemajai.pro
 wenku-cms.bj.bcebos.com
 wep-open.wpdevcloud.com
 wer.qdwght.com
+werekisdosdkwiieosd.site
 wereosdksodweowerko.site
 wereweeosodisdiweosdk.site
+weriwrosdkwisdiwrjd.site
 west.ads.simpli.fi
 westads.simpli.fi
-westfieldfocus.pro
 wesukyu.pro
 whaleads.com
 widget.cleverads.vn
@@ -11721,12 +11754,12 @@ worker70.advertnative.com
 worker71.advertnative.com
 worker72.advertnative.com
 worker73.advertnative.com
+workorders.pro
 world.popadscdn.net
 worldbriefty.pro
 worldtrendingalert.pro
 wow.ero-advertising.com
 wp-cdn.cityads.com
-wp-open.wpdevcloud.com
 wp.9bet.mobi
 wpr.hot-mob.com
 wr.da.netease.com
@@ -11879,6 +11912,7 @@ www.adk2x.com
 www.admarket.mobi
 www.admaster.com.cn
 www.adnxs.com
+www.adobe-esign.ams3.cdn.digitaloceanspaces.com
 www.adr-o.com
 www.ads.chacomedia.com
 www.ads.mp.mydas.mobi
@@ -12003,7 +12037,6 @@ www.alpitioncapital.pro
 www.altindoviz.pro
 www.altiorainvest.pro
 www.altrenix-ordre.pro
-www.ambergrovereport.pro
 www.ambiorax-ai-pro.com
 www.analytics-digit-in.cdn.ampproject.org
 www.analytics.247sports.com
@@ -12035,6 +12068,7 @@ www.aurellitopro8-2.pro
 www.aurentcore.pro
 www.aureviacapitalai.pro
 www.aurixiontrust.pro
+www.auronix-pro.live
 www.auth-check.byethost31.com
 www.auth-code-check.info
 www.autoads.asia
@@ -12093,8 +12127,11 @@ www.bitbenel.pro
 www.bitcoineverest.pro
 www.bitcoinquantumai.pro
 www.bitcoinup-pro.com
+www.bitradexpolska.pro
+www.bitzenapp-pro.live
 www.blackridgefinmark.pro
 www.blatfee.ero-advertising.com
+www.blazingscoopalert.pro
 www.blizonprecisie.pro
 www.blockadsnot.com
 www.blog.intext.ero-advertising.com
@@ -12106,27 +12143,37 @@ www.boostkapidex.pro
 www.borborygmuoa.pro
 www.borsixgpt.pro
 www.boruloy.pro
+www.bovirentix-fin.pro
 www.bramridgetrust.pro
 www.brasilrendagpt.pro
 www.bravexilini.pro
 www.breadsandwiches.com
 www.breakingbriefwire.pro
+www.breedrendeholm.pro
+www.brekutiosai.pro
 www.brekutiossoftware.pro
 www.brightcapitgate.pro
 www.brightpayplus.pro
 www.brightstardv.pro
+www.brightvaultmere.pro
+www.brightyieldsystem.pro
 www.brimax-edge.pro
 www.briovexaria.pro
+www.britanniaedgeai.pro
+www.britkonedgeval.pro
 www.britstrade67-ai.com
 www.broadspring.com
-www.broadstonejournal.info
+www.bsfiosfskdosfkadoisdka.site
 www.btc-adverant-224-ai.com
 www.btc-adverant-ai.com
 www.btc-adverant.live
 www.btc-adverant224.live
 www.btc-axiomax.pro
+www.btc-belant17.pro
+www.btc-glamit-365.live
 www.btc-protocol-z960.pro
 www.btc-vindici11.pro
+www.btcadverant.digital
 www.btcapnstad.pro
 www.btcblunex.pro
 www.btcgenix9.pro
@@ -12137,6 +12184,7 @@ www.bulletads.com
 www.buycheapadvertising.com
 www.buylike.pro
 www.buzzingheadlinehub.pro
+www.byteroxe.pro
 www.cadvision.com
 www.cairnphundholm.pro
 www.calabvent.pro
@@ -12150,7 +12198,6 @@ www.caphdeanoetil.pro
 www.capitalflux-system.pro
 www.cash4downloads.com
 www.cata.ero-advertising.com
-www.cazadsjisoopeiirito.site
 www.cbeckads.com
 www.cbproads.com
 www.cdn.beginads.com
@@ -12170,7 +12217,6 @@ www.chainatarax-500.pro
 www.chat.ero-advertising.com
 www.check-konta.vercel.app
 www.check-my-violations2026.netlify.app
-www.check.zrntz.com
 www.chengzijianzhan.com
 www.chey-luxe-platform.pro
 www.chiara-fondenza.pro
@@ -12187,6 +12233,7 @@ www.clearpointjournalx.pro
 www.cleverads.vn
 www.click.axiatraders.com
 www.clickngo.pro
+www.clorevalmeris.pro
 www.clorevalmerisia.pro
 www.cnzz.com
 www.cocodoo.pro
@@ -12235,6 +12282,7 @@ www.dbta.ero-advertising.com
 www.dcfeed.datedeskads.com
 www.dctrk.datedeskads.com
 www.deepreserveholm.pro
+www.defersdsdiosdkksdoapkd.site
 www.deta.ero-advertising.com
 www.dewcoreaj.pro
 www.dexyfui.pro
@@ -12247,7 +12295,6 @@ www.dolanadserver.com
 www.dominionvalnex.pro
 www.donaraai.pro
 www.donaraaiadvertencia.live
-www.doniesieniaporanku.pro
 www.dorevance.pro
 www.dorpcetnaeli.pro
 www.doubleclick.com
@@ -12270,7 +12317,6 @@ www.dtta.ero-advertising.com
 www.durakezvolen.pro
 www.duranepoli.pro
 www.dyrycuy.pro
-www.dziennikwejscia.pro
 www.e-hpaces.ero-advertising.com
 www.e-traffic.com
 www.easyadservice.com
@@ -12398,7 +12444,6 @@ www.getmyads24.com
 www.gieldovin.pro
 www.gikicof.pro
 www.glassygrovefy.pro
-www.globalinfion.pro
 www.globalmonitorstreamv.pro
 www.globalnewshub.pro
 www.globalwatchdailypulse.pro
@@ -12432,6 +12477,7 @@ www.happystonezk.pro
 www.hata.ero-advertising.com
 www.health-partner.net
 www.helmmarginvale.pro
+www.helmorixy-app.pro
 www.hightrafficads.com
 www.hit-counter-download.com
 www.hitofintralis.pro
@@ -12446,19 +12492,21 @@ www.hufywoi.pro
 www.huvateo.pro
 www.hxtryxstorm.pro
 www.hyfokui.pro
-www.hylavyo.pro
 www.idspaces.ero-advertising.com
 www.imads.ero-advertising.com
 www.imeds.ero-advertising.com
 www.immdiateaion-ai.pro
 www.immediateai-pro.com
+www.immediateapp.pro
 www.immediatefund.pro
+www.immediatet6avenium.pro
 www.immediatex7-relpax.pro
 www.immutableazopt-pro.com
 www.impulsorenditura-ai.pro
 www.indiads.com
 www.infinite-ads.com
 www.infinityads.com
+www.infinityprofitai-pro.com
 www.infoglobex.pro
 www.information-update.dynamic-dns.net
 www.informationpulsehubk.pro
@@ -12471,6 +12519,7 @@ www.instant9bferon.pro
 www.instantadvantageai.club
 www.instantcodrixfin.pro
 www.instantedexneo.pro
+www.instantimitrexark.pro
 www.insulevel24.pro
 www.intellariotradeproapp.pro
 www.intesa-365-erix.com
@@ -12486,21 +12535,27 @@ www.itquant.pro
 www.itunesdownloadstore.com
 www.janacapital.pro
 www.jentoravix.pro
+www.jeuisospkdoosdkado.site
 www.jezgravireon.pro
 www.jigebua.pro
+www.jisoofjwkksifosdkdal.site
 www.jivakee.pro
 www.jivevyu.pro
 www.jizzads.com
 www.jonemoo.pro
+www.jsiopakdipadpadsi.site
 www.jubemao.pro
 www.juerosaldowerisdkso.site
 www.juiceadv.com
 www.juicyads.com
 www.juieorposdkfieroir.site
+www.jusidosdkwerpweldsp.site
 www.justabolsarente.pro
 www.justasolvendaria.pro
 www.kapitalbro.pro
 www.kapitalden.pro
+www.kapitalviresta.pro
+www.kapitangesoftware.pro
 www.kapterzora-app.pro
 www.kapterzoraki.pro
 www.kapwecs.pro
@@ -12519,16 +12574,17 @@ www.klendixio-app.pro
 www.knacads.com
 www.koersaven.pro
 www.kordowasoft.pro
+www.kraftixsurge.pro
 www.kralfinexis-app.pro
 www.krolfondstvo.pro
-www.kronikablokowa.pro
-www.kronikawieczorow.pro
 www.kruvestalsystem.pro
 www.kruxprofitaru.pro
 www.kskofpsdklsfpsfsfkl.site
 www.kuchynemlejnek.pro
 www.kudohau.pro
+www.kuvrothelx-app.pro
 www.kvelmoryq-pro.com
+www.kyvraspark.pro
 www.lachrymiea.pro
 www.ladsblue.com
 www.ladugyi.pro
@@ -12551,7 +12607,6 @@ www.limanfinthra-pro.com
 www.limanfinthra.pro
 www.linexuspro.pro
 www.links-and-traffic.com
-www.liverollads.com
 www.loadsabingo.com
 www.lobigoi.pro
 www.logiclevora-2u.pro
@@ -12604,10 +12659,12 @@ www.modelmanerixhex.pro
 www.momentumfinspire.pro
 www.monet-inviora.pro
 www.montervix-max.pro
+www.motufondura.pro
 www.moveliscore9-2.pro
 www.movieads.ero-advertising.com
 www.mozgalom-finlore.pro
 www.mu88ads.com
+www.mvortixtrade72.live
 www.mx.ero-advertising.com
 www.myadsl.co.za
 www.mybb.ero-advertising.com
@@ -12620,6 +12677,7 @@ www.n149adserv.com
 www.naftotechcora.pro
 www.naiadsystems.com
 www.najasiodsdksdiadkodsi.site
+www.naseadkdopadsdaksae.site
 www.nasviclorum.pro
 www.nasywey.pro
 www.nata.ero-advertising.com
@@ -12634,6 +12692,7 @@ www.neptuneads.com
 www.nerdynatorv2.pro
 www.newhold.pro
 www.newsfluxion.pro
+www.newspolnd.pro
 www.newsradard.pro
 www.newsyoucanread24.com
 www.nexipessogpt.pro
@@ -12641,20 +12700,19 @@ www.nexorion-finance.pro
 www.nexotronai.pro
 www.ngads.com
 www.nibapee.pro
-www.nightingalenurseadvocacy.com
 www.nivolayremz.pro
 www.nl1.ero-advertising.com
 www.nl2.ero-advertising.com
 www.nners.ero-advertising.com
 www.nobilrendante.pro
 www.nodribalyem.pro
+www.nordiwertixd-app.pro
 www.norqelaxisai.pro
 www.northbaybriefq.pro
 www.notepad2.com
 www.noticierolive.pro
 www.novaonads.com
 www.novarisai.pro
-www.nowinybiezace.pro
 www.nowinyzklatki.pro
 www.nucyseo.pro
 www.nybidai.pro
@@ -12676,7 +12734,9 @@ www.org-upgrade.com
 www.orion.iad.appboy.com
 www.ormitrinex.pro
 www.orovaldexia-pro.com
+www.orveztil.pro
 www.otalmerodin.pro
+www.ouluvoittvex.pro
 www.oxvurilzsoftware.pro
 www.pagepeel.ero-advertising.com
 www.pangolin-dsp-toutiao.com
@@ -12707,8 +12767,8 @@ www.photo-ads.co.uk
 www.phpmyadmin.ero-advertising.com
 www.phpmyadmin.js.ero-advertising.com
 www.picture-uploads.com
+www.pilnamajetencja.pro
 www.pimicae.pro
-www.pinevalleyview.pro
 www.piteqeo.pro
 www.piwik.ero-advertising.com
 www.pl-open-wp.wpdevcloud.com
@@ -12717,17 +12777,14 @@ www.plenacapitoria.pro
 www.pobierzteraz.mobi
 www.podslychanezlawkiobokfontannynaosiedlu.pro
 www.podslychanezlawkiprzedkioskiemruchem.pro
-www.podslychanezokiennicyprzyjezdni.pro
 www.podslychanezparteruobokpiekarni.pro
 www.podslychanezzaciemnionegoprzejscia.pro
 www.podslychanezzakamiennegoprzejsciaulicy.pro
-www.podslychanezzakretuulicylodzkiej.pro
 www.podslyszanezparapetuobokdrzwisciany.pro
 www.podslyszanezparapetuobokpiekarninowej.pro
 www.podslyszanezpralkiwpiwnicznejobokklatki.pro
 www.polxeon-pro.com
 www.polzentra.pro
-www.pomiedzyblokami.pro
 www.popacs.ero-advertising.com
 www.popads.ero-advertising.com
 www.popads.net
@@ -12755,6 +12812,7 @@ www.pro.clanweb.cz
 www.pro.cn
 www.proadscdn.com
 www.proaiplatgp.pro
+www.profitivofundexo.pro
 www.programadeinversion.pro
 www.properrayam.pro
 www.prozenvora.pro
@@ -12786,13 +12844,14 @@ www.quasargames.pro
 www.quixoticty.pro
 www.quixotruie.pro
 www.qumvestiumai.pro
+www.qwkooasdksdoadkd.site
 www.qynxiliur.pro
+www.rade-platform.pro
 www.rainstormty.pro
 www.rampidads.com
 www.randwealthgrove.pro
 www.randwiseinvestments.pro
 www.rangoopularis-pro.com
-www.raportobywateli.pro
 www.raportyzosiedla.pro
 www.rata.ero-advertising.com
 www.ravenfundmere.pro
@@ -12817,7 +12876,6 @@ www.ridgetrust.pro
 www.risorsa-portyrex.pro
 www.roadsflower.tradethishouse.com
 www.robotrader-pro.com
-www.rolomonads.com
 www.roster.pro
 www.rotator.beginads.com
 www.rs.ero-advertising.com
@@ -12838,6 +12896,7 @@ www.samamksoosdkworfsskd.site
 www.sanolucrivo.pro
 www.saudivisionai-pro.com
 www.saxanau.pro
+www.schildvaultaris.pro
 www.searchadv.com
 www.secure-verify-update.ddns.info
 www.security-update.ddns.info
@@ -12847,7 +12906,9 @@ www.sell-ukaldi.cadsualblouses.com
 www.semanticspreadsheet.com
 www.sensorflarexxp.pro
 www.senwixpump.pro
+www.seoacademy.pro
 www.serendiptyless.pro
+www.sereno-luxentis-pro.com
 www.servedby-buysellads.com
 www.seure-update.fartit.com
 www.sexadvertentiesite.nl
@@ -12879,6 +12940,7 @@ www.smartadserver.com
 www.smtp.ero-advertising.com
 www.smyfinancial.com
 www.snapherplexhub.pro
+www.snkerlads.com
 www.sobrerendoire.pro
 www.socarplatform.pro
 www.softsmart.mobi
@@ -12932,9 +12994,7 @@ www.stuwen-opulex.pro
 www.subaruadventure.com
 www.subsitesadserver.co.uk
 www.suelto-creditante.pro
-www.sufasii.pro
 www.summit-finluxor.pro
-www.summitgrovehub.pro
 www.summitvalnexapp.pro
 www.suncrestvarlon.pro
 www.sunfortportdex.pro
@@ -12968,7 +13028,6 @@ www.tcm.optica.ero-advertising.com
 www.techadvisorpro.name
 www.techartadverts.com
 www.tejeadventur.fit
-www.tejeadventur.wiki
 www.temaseknexonsg.pro
 www.temeorufgan.pro
 www.teralixvoxqen.pro
@@ -12977,6 +13036,7 @@ www.tex.ero-advertising.com
 www.text-link-ads.com
 www.textlinkads.com
 www.thepadvegas.com
+www.thetraveller.pro
 www.thumb.ero-advertising.com
 www.thumbads.ero-advertising.com
 www.thumbs.xlaces.ero-advertising.com
@@ -12987,7 +13047,6 @@ www.token360day.pro
 www.tomitie.pro
 www.topads.ero-advertising.com
 www.topstorybreak.pro
-www.tormin.pro
 www.toroadvertisingmedia.com
 www.tpaoyatirimplatformu.pro
 www.track.adsfast.com
@@ -12996,11 +13055,14 @@ www.tracking.beginads.com
 www.tracking.ero-advertising.com
 www.trade350-app.com
 www.trade360.com
+www.trade8iplex.live
 www.tradementor-pro.shop
 www.tradepro-engine.pro
 www.traderaiapp.pro
 www.traderflix9gpt-pro.com
+www.tradex-ai.pro
 www.tradingen-vivoapp.pro
+www.tradven.digital
 www.tradvioai.live
 www.tradvioapp.live
 www.traffic-c.com
@@ -13010,11 +13072,13 @@ www.tramaprofitex.pro
 www.trasviloxai.pro
 www.traveladvertising.com
 www.treviloxanopro.pro
+www.tripadvisor.pre-approved-83945n.live
 www.trivaxonvelquant.pro
 www.troubleshoot-ad-account-issues.edgeone.dev
 www.trourted.pro
 www.trueledgewick.pro
 www.trueshelterju.pro
+www.truthgridmax.pro
 www.ttnet.yandex.com.tr
 www.turameylion.pro
 www.turbocormax-pro.com
@@ -13027,6 +13091,7 @@ www.ultravix-app.pro
 www.umbs.ero-advertising.com
 www.umeng.com
 www.universal-traffic.com
+www.universalesdeskandia.pro
 www.untavix.pro
 www.uol-bitfundix.pro
 www.update-addrese.ctiltst.ccwu.cc
@@ -13058,6 +13123,7 @@ www.vantaxio-pro.com
 www.varentixor-pro.com
 www.vasapapodosdkwrfoiekfsdi.site
 www.vaxubai.pro
+www.velario-trace.org
 www.velbraynexus-pro.com
 www.veldluxaris.pro
 www.velocidad-luxten.pro
@@ -13090,18 +13156,22 @@ www.vyranivotrade-pro.com
 www.vyxelleqranto.pro
 www.wager.dm
 www.wahytui.pro
+www.walutura.pro
 www.wapomua.pro
 www.warren-ai-pro-engine.com
+www.warren-ai-pro.com
 www.wdata.ero-advertising.com
 www.web.cellfun.mobi
 www.wedadosasdkweoewq.site
+www.weerewndksdosdkwe.site
 www.weggaintra.pro
 www.wejuxee.pro
 www.wemajai.pro
 www.wep-open.wpdevcloud.com
+www.werekisdosdkwiieosd.site
 www.wereosdksodweowerko.site
 www.wereweeosodisdiweosdk.site
-www.westfieldfocus.pro
+www.weriwrosdkwisdiwrjd.site
 www.westreclameadvies.nl
 www.wesukyu.pro
 www.whalecashads.com
@@ -13110,10 +13180,10 @@ www.winads.cn
 www.wiusoftware.pro
 www.wks.ero-advertising.com
 www.wolyjuy.pro
+www.workorders.pro
 www.worldbriefty.pro
 www.worldtrendingalert.pro
 www.wow.ero-advertising.com
-www.wp-open.wpdevcloud.com
 www.wsw.ero-advertising.com
 www.wta.ero-advertising.com
 www.ww2.ero-advertising.com
@@ -13137,7 +13207,6 @@ www.yqozugo.pro
 www.yundabao.com
 www.yvmads.com
 www.zabijoe.pro
-www.zblokowegoprzejsciawkatowicach.pro
 www.zblokowegowychoduzwindyoczekujac.pro
 www.zelanciaai.pro
 www.zenithinverix.pro
@@ -13164,6 +13233,7 @@ www.zyfrapro.pro
 www.zylkex.pro
 www.zyrenmint.pro
 www.zyskont.pro
+www.zyvron-trace-gpt.live
 www.zywa-capovin.pro
 www1.zapadserver1.com
 www10.indiads.com
@@ -13367,7 +13437,6 @@ zalo-ads.zadn.vn
 zaloads-480.zdn.vn
 zapadserver1.com
 zazerygu.pro
-zblokowegoprzejsciawkatowicach.pro
 zblokowegowychoduzwindyoczekujac.pro
 zdads.e-media.com
 zelanciaai.pro
@@ -13416,7 +13485,6 @@ zszkolnegokorytarzanadrugimpietrze.pro
 zszkolnegokorytarzawczasieprzerwy.pro
 ztoken.uyunad.com
 zuhigyf.pro
-zuibs.jetbet.download
 zusymie.pro
 zuwnq.cn
 zvs1.cnzz.com
@@ -13426,5 +13494,6 @@ zyfrapro.pro
 zylkex.pro
 zyrenmint.pro
 zyskont.pro
+zyvron-trace-gpt.live
 zywa-capovin.pro
 zz.bdstatic.com
