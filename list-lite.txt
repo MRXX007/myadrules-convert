@@ -1192,7 +1192,6 @@ adapi.ragapa.com
 adapi.shouji.360.cn
 adapi.tuyensinh247.com
 adapter.shouji.360.cn
-adaptivepropertyservices.com
 adaptv.advertising.com
 adash.m.taobao.com
 adash.man.aliyuncs.com
@@ -3807,7 +3806,6 @@ advertstream.com
 advertur.ru
 advertwizard.com
 advexotrade.com
-advgbcrtb.site
 adviap.goforandroid.com
 advice-ads-cdn.vice.com
 advideo.uimserv.net
@@ -4551,6 +4549,7 @@ api.99vn.bet
 api.9bet.army
 api.9bet.band
 api.9bet.care
+api.9bet.diy
 api.9bet.fund
 api.9bet.green
 api.9bet.mobi
@@ -5083,6 +5082,7 @@ ar.adserver.yahoo.com
 ar.hao123.com
 ar.mytrack.pro
 ar.umeng.com
+arazadvisory.net
 arc1.msn.com
 archive.coolerads.com
 ark.cp21.ott.cibntv.net
@@ -5385,6 +5385,7 @@ bid.g.doubleclick.net
 bidagent.xad.com
 bidfnt-asia.adsmoloco.com
 bidstream.advertserve.com
+biemaoreddaco.pro
 big-bang-ads.com
 bigads.guj.de
 bigapple.contextuads.com
@@ -5470,6 +5471,7 @@ browsercfg-drcn.cloud.hihonorcloud.eu
 browserkernel.baidu.com
 brpnrt.stsdk.vivo.com.cn
 brprt.stsdk.vivo.com.cn
+bruifnadiepro.pro
 bs-meta.yandex.ru
 bs.l.qq.com
 bs.yandex.ru
@@ -5477,7 +5479,7 @@ bskn.pro
 bss.pandora.xiaomi.com
 btc-adverant-ai.live
 btc-adverant224-ai.live
-btcadverantv10.de
+btcadverant.com
 btcnexivolt-760.pro
 btctraderai.pro
 btrace.play.aiseet.atianqi.com
@@ -5758,6 +5760,7 @@ cdnuz.adviad.com
 cdxninteractive.blueadvertise.com
 ceadx.agrantsem.com
 cellfun.mobi
+celorintrade92.net
 centralads.simpli.fi
 centro.pixel.ad
 ceres.iad-03.braze.com
@@ -6191,9 +6194,9 @@ da.bridgeoos.com
 da88.pro
 daaa.ero-advertising.com
 dadsats.com
-dadscustody.com
 daea.ero-advertising.com
 daia.ero-advertising.com
+dailybulletinra.pro
 dart.l.doubleclick.net
 darvin-ec.ads.heytapmobi.com
 dat2.ero-advertising.com
@@ -6370,7 +6373,6 @@ dns.ximalaya.com
 dns1.titannetwork.cn
 dns2.titannetwork.cn
 dobreprogramy.pro
-dobruasemi.pro
 doc.cnzz.com
 dograenagal.pro
 doh.iqiyi.com
@@ -6416,7 +6418,6 @@ download.hitbox.com
 download.inboxace.com
 download.kaobeitu.com
 download.mackeeper.com
-download.majorspypro.rip
 download.mclick.mobi
 download.mediaget.com
 download.pdf00.cn
@@ -6645,7 +6646,6 @@ exc.mob.com
 exchange.nativeads.com
 exit-ad.com
 exosrv.com
-exovalttrade94trade.com
 explorads.com
 eyeviewads.com
 f.blogads.com
@@ -6895,6 +6895,7 @@ global-websis.api.engagelab.cc
 global.adserver.yahoo.com
 global.msads.net
 globalapi.ad.xiaomi.com
+globalbriefra.pro
 globalwebads.com
 glores2.lanzoui.com
 glores2.lanzoux.com
@@ -6967,7 +6968,6 @@ gurzemqalin.pro
 gusabid.adview.com
 gv1.xdrig.com
 gvod.aiseejapp.atianqi.com
-gvsadvisory.com
 gw-rv.iads.unity3d.com
 gw.flurry.com
 gw5.push.mcp.weibo.cn
@@ -7544,7 +7544,6 @@ lacerta.iad-03.appboy.com
 lacerta.iad.appboy.com
 ladsblue.com
 ladsp.com
-ladspants.com
 ladsup.com
 lalande.iad-03.braze.com
 lanzoud.com
@@ -7552,6 +7551,7 @@ lanzous.com
 lanzouz.com
 lap-click.tr.line.me
 latam.adspecs.yahoo.com
+latestnewshub.pro
 launch.adserver.yahoo.com
 lax1-ib.adnxs.com
 layer-ad.de
@@ -7649,13 +7649,11 @@ load.instinctiveads.com
 load77.exelator.com
 loadsabingo.com
 loadsurprise.com
-lobaveo.pro
 local-analytics.uberinternal.com
 local-download.com
 local-update.com
 location.ximalaya.com
 lofter.httpdns.c.163.com
-logiccormax100.pro
 logserver.insight.ucweb.com
 logssug.ucweb.com
 loimearadiku.pro
@@ -8041,7 +8039,6 @@ mybb.ero-advertising.com
 mybbc-analytics.files.bbci.co.uk
 mydas.mobi
 mydisplay.ctfile.com
-mymavrex-trace.com
 mywinadvantage.com
 mz-api.smzdm.com
 n--pan-eixe.xn--baidu-jm6h.com
@@ -8678,6 +8675,7 @@ perf.gds.mmstat.com
 perf.mmstat.com
 perf.teads.tv.edgekey.net
 persgroepadvertising.nl
+petrichoreai.pro
 pfp.sina.com.cn
 pfpip.sina.com
 pg-ad-b1.ws.126.net
@@ -8749,7 +8747,6 @@ pixiu.shangshufang.ksosoft.com
 pixon.ads-pixiv.net
 pkg.sinaimg.cn
 pkg.toponad.com
-pl-add.shop
 pl.ads.justpremium.com
 planeadvancing.com
 planning-analytics.ibmcloud.com
@@ -8790,7 +8787,6 @@ popacs.ero-advertising.com
 popads.ero-advertising.com
 popads.net
 popadscdn.net
-popelkar.pro
 popme.163.com
 popmyads.com
 pops.ero-advertising.com
@@ -8959,12 +8955,14 @@ qc.789.mobi
 qc.nhatvip.pro
 qc.smartadserver.com
 qc.x8.mobi
+qeadiuneraose.pro
 qevia.doubleclick.bond
 qgnu18wo.sina.cn
 qhm1.cnzz.com
 qhm2.cnzz.com
 qianclick.baidu.com
 qianlong.adsame.com
+qielleunnadore.pro
 qihoo.cn
 qikdownloads.com
 qsptv.net
@@ -9679,6 +9677,7 @@ sestat.baidu.com
 settings-analytics.hotstar.com
 setup.advancedcleaner.com
 seure-update.fartit.com
+sextyron.pro
 sf.adsfactor.net
 sf.vserv.mobi
 sf1-be-pack.pglstatp-toutiao.com
@@ -9716,7 +9715,6 @@ shared-download.com
 shared.iad.appboy.com
 sharethrough.adnxs.com
 shence.hupu.com
-shimeet.pro
 shoppingads.com
 short-share.com
 shouji.360.cn
@@ -9806,7 +9804,6 @@ snssdk1233.onelink.me
 so.sina.cn
 sobar.baidu.com
 socket.9bet.mobi
-soft-update.dev
 softsmart.mobi
 sohu-dtv.m.cn.miaozhen.com
 sohutv.cm.admaster.com.cn
@@ -10263,7 +10260,6 @@ tgw-sasdk.3g.qq.com
 theadsparks.com
 theadvertiser.us.intellitxt.com
 theholidayroads.com
-thezyberlichbeamai-update.com
 thind.unityads.unity3d.com
 this.content.served.by.adshuffle.com
 threadsandtinker.com
@@ -10809,6 +10805,7 @@ venetia.iad.appboy.com
 verification.jiguang.cn
 verifiednewsdispatch.pro
 verify.mob.com
+vexlondrix.pro
 vfs.admaster.com.cn
 vg-ali-ad-track-sdk.mtgglobals.com
 vg-aws-ad-track-sdk-us-east-1a.mtgglobals.com
@@ -11201,7 +11198,6 @@ webview.unityads.unity3d.com
 weishi.baidu.com
 weixin.renrenying.com
 wekstron-pro.com
-wemwmejsidosdkaod.site
 wendravik.pro
 wenku-cms.bj.bcebos.com
 wer.qdwght.com
@@ -11264,6 +11260,7 @@ worker71.advertnative.com
 worker72.advertnative.com
 worker73.advertnative.com
 world.popadscdn.net
+worlddailybrief.pro
 wow.ero-advertising.com
 wp-cdn.cityads.com
 wp.9bet.mobi
@@ -11404,7 +11401,6 @@ www.ad7.thumbs.ero-advertising.com
 www.ad8.api.ero-advertising.com
 www.ad8.banners.ero-advertising.com
 www.adadvisor.net
-www.adaptivepropertyservices.com
 www.adclickservice.com
 www.adf.ero-advertising.com
 www.adfpaces.ero-advertising.com
@@ -11502,7 +11498,6 @@ www.adverts.dcthomson.co.uk
 www.advertserve.com
 www.advertyz.com
 www.advexotrade.com
-www.advgbcrtb.site
 www.adview.cn
 www.advinestium.net
 www.adw.ero-advertising.com
@@ -11531,6 +11526,7 @@ www.aperac.pro
 www.api.axiatraders.com
 www.api.taboola.com
 www.api2-update-routing-mydpd.bergh.com
+www.arazadvisory.net
 www.askwealthadvisers.com
 www.ata.ero-advertising.com
 www.autoads.asia
@@ -11566,6 +11562,7 @@ www.beronixara.pro
 www.bestphoneapps.mobi
 www.bettertextads.com
 www.bhraskilon.pro
+www.biemaoreddaco.pro
 www.bigbangads.go2cloud.org
 www.bingads.microsoft.com
 www.bitcoin-ifex-360-ai.info
@@ -11586,9 +11583,10 @@ www.bredfortjenstad.pro
 www.brightstardv.pro
 www.briokapitorio.pro
 www.broadspring.com
+www.bruifnadiepro.pro
 www.btc-adverant-ai.live
 www.btc-adverant224-ai.live
-www.btcadverantv10.de
+www.btcadverant.com
 www.btcnexivolt-760.pro
 www.btctraderai.pro
 www.btw.ero-advertising.com
@@ -11607,6 +11605,7 @@ www.cdfreisdoosdklsdfslf.site
 www.cdn.beginads.com
 www.cdn4ads.com
 www.cellfun.mobi
+www.celorintrade92.net
 www.chainlotemaxpro.pro
 www.chainprofit.pro
 www.chat.ero-advertising.com
@@ -11646,9 +11645,9 @@ www.cyhners.ero-advertising.com
 www.cysyjeo.pro
 www.da-ads.com
 www.daaa.ero-advertising.com
-www.dadscustody.com
 www.daea.ero-advertising.com
 www.daia.ero-advertising.com
+www.dailybulletinra.pro
 www.dat2.ero-advertising.com
 www.data-ero-advertising.com
 www.data2.ero-advertising.com
@@ -11670,7 +11669,6 @@ www.dia-traffic.com
 www.directnetadvertising.net
 www.dns-loginssl.bausachverstaendiger-wiesbaden.de
 www.dobreprogramy.pro
-www.dobruasemi.pro
 www.dograenagal.pro
 www.dolanadserver.com
 www.dorenastivex.pro
@@ -11681,7 +11679,6 @@ www.doublepimpads.com
 www.down1oads.com
 www.download-ifram-rona-7857543-g7lbr.bunny.run
 www.download.inboxace.com
-www.download.majorspypro.rip
 www.download.televisionfanatic.com
 www.download.weatherblink.com
 www.downloads-whatsapp.com
@@ -11716,7 +11713,6 @@ www.eshopads2.com
 www.etomgorpulik.pro
 www.exactadvertising.com
 www.exit-ad.de
-www.exovalttrade94trade.com
 www.extreme-dm.com
 www.factflowpulse.pro
 www.fanners.ero-advertising.com
@@ -11768,6 +11764,7 @@ www.gcmadvertising.com
 www.gentleshadeox.pro
 www.getmyads24.com
 www.glassygrovefy.pro
+www.globalbriefra.pro
 www.gmads.net
 www.goads.pro
 www.godsadvice.com
@@ -11783,7 +11780,6 @@ www.gtrade1-ai.com
 www.gtrade1.com
 www.gtrade1.net
 www.gurzemqalin.pro
-www.gvsadvisory.com
 www.happystonezk.pro
 www.hata.ero-advertising.com
 www.hawthornethreads.mom
@@ -11846,10 +11842,10 @@ www.krevnixio.pro
 www.krynthelixombravane.pro
 www.ksiazorc-alyron.pro
 www.ladsblue.com
-www.ladspants.com
 www.lanzoud.com
 www.lanzous.com
 www.lanzouz.com
+www.latestnewshub.pro
 www.layers.ero-advertising.com
 www.ledgerholm-app.pro
 www.lekkirendovikai.pro
@@ -11859,8 +11855,6 @@ www.libro-solethium-pro.com
 www.lidlsaleonlyadspl.shop
 www.links-and-traffic.com
 www.loadsabingo.com
-www.lobaveo.pro
-www.logiccormax100.pro
 www.loimearadiku.pro
 www.lorenterendor-click.pages.dev
 www.lottery.ie
@@ -11904,7 +11898,6 @@ www.myadsl.co.za
 www.mybb.ero-advertising.com
 www.myhucadvantage.com
 www.mylottoadserv.com
-www.mymavrex-trace.com
 www.mywinadvantage.com
 www.n149adserv.com
 www.naiadsystems.com
@@ -11947,6 +11940,7 @@ www.payperclickadvertising.org.uk
 www.peachysailwv.pro
 www.pearlyappss.pro
 www.persgroepadvertising.nl
+www.petrichoreai.pro
 www.pflexads.com
 www.phantomstrikety.pro
 www.phoenixads.co.in
@@ -11956,7 +11950,6 @@ www.phpmyadmin.ero-advertising.com
 www.phpmyadmin.js.ero-advertising.com
 www.picture-uploads.com
 www.piwik.ero-advertising.com
-www.pl-add.shop
 www.pobierzteraz.mobi
 www.pohjorvalene.pro
 www.polavionex-pro.com
@@ -11970,7 +11963,6 @@ www.popacs.ero-advertising.com
 www.popads.ero-advertising.com
 www.popads.net
 www.popadvert.com
-www.popelkar.pro
 www.postads24.com
 www.postnewsads.com
 www.poweredbyliquidfire.mobi
@@ -11997,6 +11989,8 @@ www.pubsdownloads.net
 www.purliquidheim.pro
 www.purnoavexo.pro
 www.qchannel01.cn
+www.qeadiuneraose.pro
+www.qielleunnadore.pro
 www.qqads.com
 www.quantixfinance.pro
 www.quantum-flowbit.pro
@@ -12044,10 +12038,10 @@ www.seinavoraai.pro
 www.servedby-buysellads.com
 www.seure-update.fartit.com
 www.sexadvertentiesite.nl
+www.sextyron.pro
 www.sexyads.net
 www.sguinarheabu.pro
 www.share-server.com
-www.shimeet.pro
 www.silnyfundalis.pro
 www.silverthorn.pro
 www.sin.ero-advertising.com
@@ -12105,7 +12099,6 @@ www.tenonstrategicwealthadvisors.com
 www.tex.ero-advertising.com
 www.text-link-ads.com
 www.textlinkads.com
-www.thezyberlichbeamai-update.com
 www.threadsandtinker.com
 www.thumb.ero-advertising.com
 www.thumbads.ero-advertising.com
@@ -12154,6 +12147,7 @@ www.vads.vn
 www.vanguardtruthnow.pro
 www.velorafundsaiv2.pro
 www.verifiednewsdispatch.pro
+www.vexlondrix.pro
 www.vipads.cc
 www.vipads.live
 www.vistula-ai-pro.pages.dev
@@ -12167,7 +12161,6 @@ www.waqerjusidiajsdiadoadsj.site
 www.wdata.ero-advertising.com
 www.web.cellfun.mobi
 www.wekstron-pro.com
-www.wemwmejsidosdkaod.site
 www.wendravik.pro
 www.westgrove-hqmsdke-mainfield.site
 www.westreclameadvies.nl
@@ -12180,6 +12173,7 @@ www.wiwelucroire.pro
 www.wks.ero-advertising.com
 www.woldmonridge.pro
 www.worexua.pro
+www.worlddailybrief.pro
 www.wow.ero-advertising.com
 www.wsw.ero-advertising.com
 www.wta.ero-advertising.com
