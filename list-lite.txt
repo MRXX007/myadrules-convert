@@ -3722,6 +3722,7 @@ adve.net
 adveng.hiasys.com
 adventory.com
 adventurefeeds.com
+adventurepl.com
 adventurousamount.com
 adver.24h.com.vn
 adver.pengyou.com
@@ -4502,11 +4503,8 @@ api-d.dutils.com
 api-data-contacts-digitals-vu-configurations-region-amazonaws.adjustapost.com
 api-data-contacts-digitals-vu-configurations-region-amazonaws.asusboards.com
 api-data-contacts-digitals-vu-configurations-region-amazonaws.baryyer.com
-api-data-contacts-digitals-vu-configurations-region-amazonaws.blogwogin.com
 api-data-contacts-digitals-vu-configurations-region-amazonaws.ctotto.com
 api-data-contacts-digitals-vu-configurations-region-amazonaws.defilecafe.com
-api-data-contacts-digitals-vu-configurations-region-amazonaws.dotnetspurt.com
-api-data-contacts-digitals-vu-configurations-region-amazonaws.dvdunlocker.com
 api-data-contacts-digitals-vu-configurations-region-amazonaws.jingtain.com
 api-data-contacts-digitals-vu-configurations-region-amazonaws.mizzworthy.com
 api-data-contacts-digitals-vu-configurations-region-amazonaws.tipertz.co
@@ -5187,6 +5185,7 @@ auraxai-app.pro
 aurextradeai.pro
 auronixpro-click.pages.dev
 aurorapeakd.pro
+aurvenixtplateforme-click.pages.dev
 auth-google.site
 auth.cityads.com
 auth2.cityads.com
@@ -5458,6 +5457,7 @@ bmvip.alimama.cn
 bnet-api.playm8ru.win
 bnr6txockztw.l.adsco.re
 bo.goadservices.com
+bodrofinekssolution-pro.pages.dev
 boffoadsapi.com
 bohats-fondi-pro.pages.dev
 boilingmadsoup.com
@@ -5818,7 +5818,6 @@ chatgptinvestbot-click.pages.dev
 check-activity.com.ru
 check-id2193.fun
 check-id7277.eu.cc
-check-poczta.vercel.app
 check-products.org
 check-tcp.rayjump.com
 check-you-id-972727.eu.cc
@@ -5827,7 +5826,6 @@ checker.cityads.com
 chey-luxe-platform-pro.pages.dev
 chineseinla.com
 christianbusinessadvertising.com
-chrome.windows-browser.net
 chuguadventures.co.tz
 chykohija.pro
 cimaonrendaviol-click.pages.dev
@@ -6234,7 +6232,6 @@ daaa.ero-advertising.com
 dadsats.com
 daea.ero-advertising.com
 daia.ero-advertising.com
-dailybulletinra.pro
 dailydesknow.pro
 dailylivebrief.pro
 dart.l.doubleclick.net
@@ -6762,6 +6759,7 @@ flatfae.ero-advertising.com
 flatfea.ero-advertising.com
 flatfee.ero-advertising.com
 flex.msn.com
+flick-edge-pro.pages.dev
 floatingads.madisonavenue.com
 fls-eu.amazon-adsystem.com
 fls-fe.amazon-adsystem.com
@@ -6775,6 +6773,7 @@ flw.ero-advertising.com
 fly-ads.net
 fm.ipinyou.com
 fmads.osdn.com
+fmadvqmy.shop
 fms.ipinyou.com
 fmsads.com
 fnatfee.ero-advertising.com
@@ -6927,7 +6926,8 @@ global-websis.api.engagelab.cc
 global.adserver.yahoo.com
 global.msads.net
 globalapi.ad.xiaomi.com
-globalbriefra.pro
+globalmeshix.pro
+globalstackis.pro
 globaltradeai-click.pages.dev
 globalwebads.com
 glores2.lanzoui.com
@@ -7369,6 +7369,7 @@ installer-drcn.hispace.hihonorcloud.cn
 installer-drcn.hispace.hihonorcloud.com
 installer-drcn.hispace.hihonorcloud.eu
 instant-profit-click.pages.dev
+instant9bferon-pro.pages.dev
 instantaloxi-click.pages.dev
 instantamrix-3000-click.pages.dev
 insulevel24.pro
@@ -7585,7 +7586,6 @@ lanzouz.com
 lap-click.tr.line.me
 largefondrive-click.pages.dev
 latam.adspecs.yahoo.com
-latestnewshub.pro
 launch.adserver.yahoo.com
 lavenderokys.pro
 lax1-ib.adnxs.com
@@ -7709,7 +7709,6 @@ lubet.api.new.livejasmin.com
 lucrovenza-pro.pages.dev
 lunarentisto.pro
 lupic.cdn.bcebos.com
-lustravivo.pro
 m-adash.m.taobao.com
 m-hayakawa.ad.dev.nend.net
 m-vali.cp31.ott.cibntv.net
@@ -8808,6 +8807,7 @@ pl-pro-aiapp.com
 pl-pro-aisolution.com
 pl.ads.justpremium.com
 planeadvancing.com
+planetportix.pro
 planning-analytics.ibmcloud.com
 platform-api.sharethis.com
 platform.adsymptotic.com
@@ -8833,7 +8833,6 @@ pnrt.stsdk.vivo.com.cn
 pobierzteraz.mobi
 pokkt.fuse-ad.com
 polarzinsmere.pro
-polavex-pro.com
 policy.video.iqiyi.com
 polymorphicads.jp
 pop-dev.ad4game.com
@@ -9154,6 +9153,7 @@ rescn.u3.ucweb.com
 reseller.sexyads.com
 reselling-corp.com
 reserv-advanced1544928.com
+reserv-advanced1557929.com
 reserv-advanced353890677.com
 reserv-advanced653890177.com
 reserv-advanced67557.com
@@ -9734,7 +9734,6 @@ sestat.baidu.com
 settings-analytics.hotstar.com
 setup.advancedcleaner.com
 seure-update.fartit.com
-sextyron.pro
 sf.adsfactor.net
 sf.vserv.mobi
 sf1-be-pack.pglstatp-toutiao.com
@@ -9836,6 +9835,7 @@ smart4ads.com
 smartad.10010.com
 smartads.tech
 smartadserver.com
+smartbitai-pro-com.pages.dev
 smartinit.webads.nl
 smartlock.google.com
 smartmoney-ai-platform.pro
@@ -10324,6 +10324,7 @@ theadvertiser.us.intellitxt.com
 theholidayroads.com
 thind.unityads.unity3d.com
 this.content.served.by.adshuffle.com
+throbbing-shape-cad3.samuelramseyaitx22666.workers.dev
 thumb.ero-advertising.com
 thumbads.ero-advertising.com
 thumbnail.smartnews-ads.com
@@ -10661,7 +10662,6 @@ unityads.unity.cn
 unityads.unity3d.com
 unityads.unity3d.com.edgekey.net
 unityads.unitychina.cn
-universalmobility.pro
 unstat.baidu.com
 uole.ad.uol.com.br
 uop.umeng.com
@@ -11273,7 +11273,6 @@ websgsadvert.sanguosha.com
 webview.unityads.unity3d.com
 weishi.baidu.com
 weixin.renrenying.com
-welkotrivax.pro
 welkrotivax-click.pages.dev
 wenku-cms.bj.bcebos.com
 wer.qdwght.com
@@ -11335,7 +11334,6 @@ worker71.advertnative.com
 worker72.advertnative.com
 worker73.advertnative.com
 world.popadscdn.net
-worlddailybrief.pro
 wow.ero-advertising.com
 wp-cdn.cityads.com
 wp.9bet.mobi
@@ -11565,6 +11563,7 @@ www.advancedsoftwaresupport.com
 www.advanpromo.com
 www.advconversion.com
 www.adventurefeeds.com
+www.adventurepl.com
 www.adversal.com
 www.adversalservers.com
 www.adverster.com
@@ -11607,11 +11606,8 @@ www.anners.ero-advertising.com
 www.api-data-contacts-digitals-vu-configurations-region-amazonaws.adjustapost.com
 www.api-data-contacts-digitals-vu-configurations-region-amazonaws.asusboards.com
 www.api-data-contacts-digitals-vu-configurations-region-amazonaws.baryyer.com
-www.api-data-contacts-digitals-vu-configurations-region-amazonaws.blogwogin.com
 www.api-data-contacts-digitals-vu-configurations-region-amazonaws.ctotto.com
 www.api-data-contacts-digitals-vu-configurations-region-amazonaws.defilecafe.com
-www.api-data-contacts-digitals-vu-configurations-region-amazonaws.dotnetspurt.com
-www.api-data-contacts-digitals-vu-configurations-region-amazonaws.dvdunlocker.com
 www.api-data-contacts-digitals-vu-configurations-region-amazonaws.jingtain.com
 www.api-data-contacts-digitals-vu-configurations-region-amazonaws.mizzworthy.com
 www.api-data-contacts-digitals-vu-configurations-region-amazonaws.tipertz.co
@@ -11628,6 +11624,7 @@ www.auraxai-app.pro
 www.aurextradeai.pro
 www.auronixpro-click.pages.dev
 www.aurorapeakd.pro
+www.aurvenixtplateforme-click.pages.dev
 www.autoads.asia
 www.auvrikensolmireth-click.pages.dev
 www.avalinvest.pro
@@ -11674,6 +11671,7 @@ www.blockadsnot.com
 www.blog.intext.ero-advertising.com
 www.blogads.com
 www.blueadvantagearkasas.com
+www.bodrofinekssolution-pro.pages.dev
 www.bohats-fondi-pro.pages.dev
 www.borsektron-click.pages.dev
 www.braylenthquantum-pro.com
@@ -11714,7 +11712,6 @@ www.chat.ero-advertising.com
 www.chatgptinvestbot-click.pages.dev
 www.check-id2193.fun
 www.check-id7277.eu.cc
-www.check-poczta.vercel.app
 www.check-you-id-972727.eu.cc
 www.chengzijianzhan.com
 www.chey-luxe-platform-pro.pages.dev
@@ -11755,7 +11752,6 @@ www.da-ads.com
 www.daaa.ero-advertising.com
 www.daea.ero-advertising.com
 www.daia.ero-advertising.com
-www.dailybulletinra.pro
 www.dailydesknow.pro
 www.dailylivebrief.pro
 www.dat2.ero-advertising.com
@@ -11848,8 +11844,10 @@ www.flatdee.ero-advertising.com
 www.flatfae.ero-advertising.com
 www.flatfea.ero-advertising.com
 www.flatfee.ero-advertising.com
+www.flick-edge-pro.pages.dev
 www.flurry.com
 www.flw.ero-advertising.com
+www.fmadvqmy.shop
 www.fnatfee.ero-advertising.com
 www.fondavind.pro
 www.forex-advice.net
@@ -11869,7 +11867,8 @@ www.genvixtrade-v96-pro.pages.dev
 www.genvixtrade-v96.pro
 www.getmyads24.com
 www.glassygrovefy.pro
-www.globalbriefra.pro
+www.globalmeshix.pro
+www.globalstackis.pro
 www.globaltradeai-click.pages.dev
 www.gmads.net
 www.goads.pro
@@ -11916,6 +11915,7 @@ www.infogrowth.pro
 www.information-update.dynamic-dns.net
 www.ingresointeligente.pro
 www.instant-profit-click.pages.dev
+www.instant9bferon-pro.pages.dev
 www.instantaloxi-click.pages.dev
 www.instantamrix-3000-click.pages.dev
 www.insulevel24.pro
@@ -11952,7 +11952,6 @@ www.lanzoud.com
 www.lanzous.com
 www.lanzouz.com
 www.largefondrive-click.pages.dev
-www.latestnewshub.pro
 www.lavenderokys.pro
 www.layers.ero-advertising.com
 www.legacy-bitfundextech-pro.pages.dev
@@ -11968,7 +11967,6 @@ www.lottery.olg.ca
 www.lp.trade360.com
 www.lucrovenza-pro.pages.dev
 www.lunarentisto.pro
-www.lustravivo.pro
 www.macrotrade.pro
 www.magento-analytics.com
 www.mainadv.com
@@ -12081,12 +12079,12 @@ www.pl-aiapp-pro.com
 www.pl-oferta74928-share.cfd
 www.pl-pro-aiapp.com
 www.pl-pro-aisolution.com
+www.planetportix.pro
 www.plazentiapro-click.pages.dev
 www.plenacapitoria-pro.pages.dev
 www.plus-pro.uplg-plus.shop
 www.pobierzteraz.mobi
 www.polarzinsmere.pro
-www.polavex-pro.com
 www.popacs.ero-advertising.com
 www.popads.ero-advertising.com
 www.popads.net
@@ -12129,6 +12127,7 @@ www.redirect.ero-advertising.com
 www.registrarads.com
 www.rendaluce.pro
 www.reserv-advanced1544928.com
+www.reserv-advanced1557929.com
 www.reserv-advanced353890677.com
 www.reserv-advanced653890177.com
 www.reserv-advanced67557.com
@@ -12164,7 +12163,6 @@ www.sereinplacoire.pro
 www.servedby-buysellads.com
 www.seure-update.fartit.com
 www.sexadvertentiesite.nl
-www.sextyron.pro
 www.sexyads.net
 www.sfrundamolu.pro
 www.share-server.com
@@ -12178,6 +12176,7 @@ www.skonhed.pro
 www.slide-aloxi-ark.pro
 www.slimads.vn
 www.smartadserver.com
+www.smartbitai-pro-com.pages.dev
 www.smartmoney-ai-platform.pro
 www.smtp.ero-advertising.com
 www.smyfinancial.com
@@ -12230,6 +12229,7 @@ www.terracotruies.pro
 www.tex.ero-advertising.com
 www.text-link-ads.com
 www.textlinkads.com
+www.throbbing-shape-cad3.samuelramseyaitx22666.workers.dev
 www.thumb.ero-advertising.com
 www.thumbads.ero-advertising.com
 www.thumbs.xlaces.ero-advertising.com
@@ -12266,7 +12266,6 @@ www.ultravix-app-pro.pages.dev
 www.umbs.ero-advertising.com
 www.umeng.com
 www.universal-traffic.com
-www.universalmobility.pro
 www.update-information.zzux.com
 www.update-java.kit.net
 www.update-netflix.com
@@ -12305,7 +12304,6 @@ www.wager.dm
 www.wdata.ero-advertising.com
 www.wealthicato.pro
 www.web.cellfun.mobi
-www.welkotrivax.pro
 www.welkrotivax-click.pages.dev
 www.wertkernix-click.pages.dev
 www.wertoven.pro
@@ -12317,7 +12315,6 @@ www.willowcorner.mobi
 www.winads.cn
 www.wiuapp.pro
 www.wks.ero-advertising.com
-www.worlddailybrief.pro
 www.wow.ero-advertising.com
 www.wsw.ero-advertising.com
 www.wta.ero-advertising.com
