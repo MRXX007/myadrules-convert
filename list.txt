@@ -289,6 +289,7 @@ acads.net
 acceptable.a-ads.com
 accidentadvicehelpline.co.uk
 accounts.doubleclick.net
+accruewell.pro
 acd.op.hicloud.com
 acd.op.hihonorcloud.com
 acdn.adnxs-simple.com
@@ -3701,6 +3702,7 @@ adv.webvariant.com
 adv.yo.cz
 adv2.expres.ua
 advack.net
+advanced-reserv8283.com
 advancedcleaner.com
 advancedmactools.com
 advancedmn.us.intellitxt.com
@@ -4884,7 +4886,6 @@ api.qttunion.com
 api.quantumgraph.com
 api.radar.io
 api.ranking.rakuten.co.jp
-api.recapcha.fun
 api.receptivity.io
 api.red88.club
 api.red88.com
@@ -5168,8 +5169,6 @@ audio.ad
 auiopt.unityads.unity3d.com
 aurixiontrust-pro.pages.dev
 aurora-capital.pro
-aurvenixt-click.pages.dev
-aurvenixtplateforme-click.pages.dev
 auth-google.site
 auth.cityads.com
 auth2.cityads.com
@@ -5376,6 +5375,7 @@ beacon-iad2.rubiconproject.com
 beacon-iad3.rubiconproject.com
 beacon-us-iad2.rubiconproject.com
 beacon.sina.com.cn
+beaconfundamoren.pro
 bead-ad.com
 beads.sx.atl.publicus.com
 beap.adss.yahoo.com
@@ -5441,7 +5441,6 @@ bluebadge-status-update.vercel.app
 bluequbitai-pro.pages.dev
 bm.alimama.cn
 bmvip.alimama.cn
-bnet-api.playm8ru.win
 bnr6txockztw.l.adsco.re
 bo.goadservices.com
 boffoadsapi.com
@@ -5798,7 +5797,6 @@ check.rayjump.com
 checker.cityads.com
 chineseinla.com
 christianbusinessadvertising.com
-chuguadventures.co.tz
 chykohija.pro
 circuit.advertserve.com
 cityads.com
@@ -6127,7 +6125,6 @@ creatives.doubleclick.net
 creatives.purpleads.io
 creatives.rgadvert.com
 creditburner.blueadvertise.com
-criptoinvest-click.pages.dev
 crispadvertising.com
 criteo-sync.teads.tv
 criteo-sync.teads.tv.edgekey.net
@@ -6415,24 +6412,18 @@ download.88kwp.com
 download.adsage.com
 download.bav.baidu.com
 download.browseraccelerator.com
-download.caihong.com
 download.cdn.sharelive.net
 download.cdn.torchbrowser.com
 download.coolguang.com
-download.doumaibiji.cn
 download.filmfanatic.com
 download.fuyuncc.com
 download.fyxm.net
 download.grandcloud.cn
-download.haozip.com
 download.hitbox.com
 download.inboxace.com
-download.kaobeitu.com
 download.mackeeper.com
 download.mclick.mobi
 download.mediaget.com
-download.pdf00.cn
-download.pdf00.com
 download.qianka.com
 download.realtimegaming.com
 download.rising.com.cn
@@ -6648,7 +6639,6 @@ exactadvertising.com
 exc.mob.com
 exchange.nativeads.com
 exit-ad.com
-exo-api.tf
 exosrv.com
 explorads.com
 eyeviewads.com
@@ -6707,6 +6697,7 @@ filter.adsparkmedia.net
 filteradkernel.adsimilate.com
 fim.adnxs.com
 finance.cityads.com
+financeforum-click.pages.dev
 finsy2-ad81.cyou
 finsy3-ad45.cfd
 finsy5-ad64.cfd
@@ -6715,6 +6706,7 @@ finzy5-ad51.sbs
 finzy6-ad28.sbs
 finzy6-ad33.sbs
 finzy7-ad0.sbs
+finzy7-ad49.sbs
 finzy7-ad53.sbs
 fiorecolvento-pro.pages.dev
 fipuvye.pro
@@ -6734,7 +6726,6 @@ flatfae.ero-advertising.com
 flatfea.ero-advertising.com
 flatfee.ero-advertising.com
 flex.msn.com
-flick-edge-pro.pages.dev
 floatingads.madisonavenue.com
 fls-eu.amazon-adsystem.com
 fls-fe.amazon-adsystem.com
@@ -6908,8 +6899,6 @@ global-websis.api.engagelab.cc
 global.adserver.yahoo.com
 global.msads.net
 globalapi.ad.xiaomi.com
-globalmeshix.pro
-globalstackis.pro
 globalwebads.com
 glores2.lanzoui.com
 glores2.lanzoux.com
@@ -7000,7 +6989,6 @@ h6o2z0pwx5ja7dwxn0wx4fhv7mp0qoladm8vj6do4h1c6gja8evrn6g5fixk.me
 ha-api.pushwoosh.com
 habyzuo.pro
 haiwai-ic.ksosoft.com
-hajicai.pro
 haldenorixa.pro
 halo.ad.gt
 hao.360.cn
@@ -7042,7 +7030,6 @@ hipersushiads.com
 hippo.vlion.cn
 hiram.iad-03.braze.com
 hitclub.pro
-hitman-pro.ru
 hiyystiocytesdigestions.pro
 hj67fadszx.appspot.com
 hk.adserver.yahoo.com
@@ -7308,6 +7295,7 @@ inc2.igexin.com
 inceptionads.go2cloud.org
 indo.autoads.asia
 indus.iad-01.braze.com
+induscapitalplatform-pro.pages.dev
 induscapitalplatform.pro
 inferna.iad-03.braze.com
 infinite-ads.com
@@ -7340,7 +7328,6 @@ installer-drcn.hispace.dbankcloud.eu
 installer-drcn.hispace.hihonorcloud.cn
 installer-drcn.hispace.hihonorcloud.com
 installer-drcn.hispace.hihonorcloud.eu
-instant9bferon-pro.pages.dev
 insulevel24.pro
 integralwall.baidu.com
 intelliads.com
@@ -7486,6 +7473,7 @@ juicyteenvideos.com
 juicywebcams.com
 juicywives.com
 jump.baidu.001union.com
+junvexa.pro
 jupin.mediav.com
 jupiter.appads.com
 jupiter1.appads.com
@@ -7663,7 +7651,6 @@ loadsabingo.com
 loadsurprise.com
 local-analytics.uberinternal.com
 local-download.com
-local-update.com
 location.ximalaya.com
 lofter.httpdns.c.163.com
 logiclotemax-pro.pages.dev
@@ -7715,7 +7702,6 @@ m.data.mob.com
 m.doubleclick.net
 m.game.weibo.cn
 m.hot-mob.com
-m.meta-dm.com
 m.mixadvert.com
 m.one.impact-ad.jp
 m.servedby-buysellads.com
@@ -7953,6 +7939,7 @@ mobilesdk-us.kampyle.com
 mobpartner.mobi
 mobwsa.ximalaya.com
 moengagewebsdk.imgix.net
+moj-bonus-check.top
 momsg.wps.cn
 mon.ad-stir.com
 mon.ad.xelements.cn
@@ -8283,7 +8270,6 @@ optimized.by.vitalads.net
 optimus-ads.amap.com
 optimus-ads.amap.com.w.alikunlun.com
 optimus.ipinyou.com
-optipay-click.pages.dev
 opus.analytics.yahoo.com
 orencia.pflexads.com
 orfw.adsafeprotected.com
@@ -8729,7 +8715,6 @@ phoenixads.co.in
 phonesecure.mobi
 photo-ads.zaloapp.com
 photobucket.adnxs.com
-photolivebook.pro
 phpads.astalavista.us
 phpads.flipcorp.com
 phpads.foundrymusic.com
@@ -8769,7 +8754,6 @@ pkg.sinaimg.cn
 pkg.toponad.com
 pl.ads.justpremium.com
 planeadvancing.com
-planetportix.pro
 planning-analytics.ibmcloud.com
 platform-api.sharethis.com
 platform.adsymptotic.com
@@ -9487,7 +9471,6 @@ scdn.eclick.vn
 scene.vip.xunlei.com
 sclick.baidu.com
 sconf.f.360.cn
-screenconnect.pro
 scribe.twitter.com
 script.mclick.mobi
 script.proadscdn.com
@@ -10285,7 +10268,6 @@ tgw-sasdk.3g.qq.com
 theadsparks.com
 theadvertiser.us.intellitxt.com
 thedragadventures.com
-theholidayroads.com
 thind.unityads.unity3d.com
 this.content.served.by.adshuffle.com
 thumb.ero-advertising.com
@@ -10645,7 +10627,6 @@ update.adflex.vn
 update.adsrvr.org
 update.baidu.com
 update.bainv.net
-update.cg100iii.com
 update.dbankcdn.com
 update.hiconversion.com
 update.ib.adnxs.com
@@ -10835,7 +10816,6 @@ vela.iad-01.braze.com
 veltronaxis-click.pages.dev
 velvixkentromintspectrum.pro
 vena.native-ad.net
-vendortrust-click.pages.dev
 venetia.iad.appboy.com
 verificaitalia-click.pages.dev
 verification.jiguang.cn
@@ -11393,6 +11373,7 @@ www.a2uu36g43l.download
 www.aata.ero-advertising.com
 www.abogad.pro
 www.accidentadvicehelpline.co.uk
+www.accruewell.pro
 www.acspaces.ero-advertising.com
 www.actualgremp.pro
 www.ad-center.com
@@ -11506,6 +11487,7 @@ www.adszooks.com
 www.adt.com.vn
 www.adv.axiatraders.com
 www.advaliant.com
+www.advanced-reserv8283.com
 www.advancedcleaner.com
 www.advancedmactools.com
 www.advancedsoftwaresupport.com
@@ -11559,8 +11541,6 @@ www.ata.ero-advertising.com
 www.atlas-adv.pages.dev
 www.aurixiontrust-pro.pages.dev
 www.aurora-capital.pro
-www.aurvenixt-click.pages.dev
-www.aurvenixtplateforme-click.pages.dev
 www.autoads.asia
 www.autodealeradvertising.com
 www.autostrada2.eu.cc
@@ -11587,6 +11567,7 @@ www.banners1.ero-advertising.com
 www.banners2.ero-advertising.com
 www.bannevs.ero-advertising.com
 www.bavners2.ero-advertising.com
+www.beaconfundamoren.pro
 www.beathhification.pro
 www.beginads.com
 www.bemydate.mobi
@@ -11663,7 +11644,6 @@ www.corepulsegen-pro.pages.dev
 www.cornhuskersffjounciest.pro
 www.cpmadvisors.com
 www.cpro.baidu.com
-www.criptoinvest-click.pages.dev
 www.crispads.com
 www.croft-tradstead.org
 www.cryntorishelia-click.pages.dev
@@ -11748,6 +11728,7 @@ www.ferrovaldenza-pro.pages.dev
 www.fervixa.pro
 www.feyads.com
 www.fhatfee.ero-advertising.com
+www.financeforum-click.pages.dev
 www.finsy2-ad81.cyou
 www.finsy3-ad45.cfd
 www.finsy5-ad64.cfd
@@ -11756,6 +11737,7 @@ www.finzy5-ad51.sbs
 www.finzy6-ad28.sbs
 www.finzy6-ad33.sbs
 www.finzy7-ad0.sbs
+www.finzy7-ad49.sbs
 www.finzy7-ad53.sbs
 www.fiorecolvento-pro.pages.dev
 www.fipuvye.pro
@@ -11768,7 +11750,6 @@ www.flatdee.ero-advertising.com
 www.flatfae.ero-advertising.com
 www.flatfea.ero-advertising.com
 www.flatfee.ero-advertising.com
-www.flick-edge-pro.pages.dev
 www.flurry.com
 www.fluxgainluxor-click.pages.dev
 www.flw.ero-advertising.com
@@ -11798,8 +11779,6 @@ www.getmyads24.com
 www.gikoqe.pro
 www.girlsadvanceethiopia.org
 www.glassygrovefy.pro
-www.globalmeshix.pro
-www.globalstackis.pro
 www.glorven.pro
 www.gmads.net
 www.goads.pro
@@ -11812,7 +11791,6 @@ www.greencentral.pro
 www.greenvistazj.pro
 www.greynomadsontheroad.com
 www.habyzuo.pro
-www.hajicai.pro
 www.haldenorixa.pro
 www.happystonezk.pro
 www.hata.ero-advertising.com
@@ -11829,13 +11807,13 @@ www.idspaces.ero-advertising.com
 www.imads.ero-advertising.com
 www.imeds.ero-advertising.com
 www.indiads.com
+www.induscapitalplatform-pro.pages.dev
 www.induscapitalplatform.pro
 www.infinite-ads.com
 www.infinityads.com
 www.information-update.dynamic-dns.net
 www.inforyx.pro
 www.inpmone.pro
-www.instant9bferon-pro.pages.dev
 www.insulevel24.pro
 www.intext.ero-advertising.com
 www.investhubpro-click.pages.dev
@@ -11852,6 +11830,7 @@ www.jorvena.pro
 www.jorvica.pro
 www.juiceadv.com
 www.juicyads.com
+www.junvexa.pro
 www.juremavolix.pro
 www.justasolvendaria-pro.pages.dev
 www.kalvexa.pro
@@ -11954,7 +11933,6 @@ www.okrcity.pro
 www.onlinedownloads.org
 www.opads.ero-advertising.com
 www.optad360.com
-www.optipay-click.pages.dev
 www.org-upgrade.com
 www.orion.iad.appboy.com
 www.orvelix.pro
@@ -11988,7 +11966,6 @@ www.picture-uploads.com
 www.piduxeo.pro
 www.pisoley.pro
 www.piwik.ero-advertising.com
-www.planetportix.pro
 www.plexion.pro
 www.pmmresumptions.pro
 www.pobierzteraz.mobi
@@ -12196,7 +12173,6 @@ www.vapyguu.pro
 www.vatandaslikfonu.pro
 www.veltronaxis-click.pages.dev
 www.velvixkentromintspectrum.pro
-www.vendortrust-click.pages.dev
 www.verificaitalia-click.pages.dev
 www.vibestop.pro
 www.victoriaexecutive.pro
