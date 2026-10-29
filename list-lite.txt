@@ -4033,7 +4033,6 @@ alpha2.autoads.asia
 alphaapi.autoads.asia
 alternativos.iw-advertising.com
 altiorainvest-pro.pages.dev
-alvantaoriplexussource.pro
 alvenor.pro
 ama.adwo.com
 amazon-adsystem.com
@@ -4493,7 +4492,6 @@ api-app.ants.vn
 api-app.coocaa.ottcn.com
 api-c.dutils.com
 api-client.okvipworldcup.com
-api-cwlyy8pkz.contentsaadatnadarim.lol
 api-d.dutils.com
 api-es.doglobal.net
 api-ext.bixbitemarketing.com
@@ -5383,7 +5381,6 @@ beathhification.pro
 beauty.native-ad.net
 belgikanst.iad-03.braze.com
 bemydate.mobi
-bergkuppeportiasoftware.pro
 beroxoy.pro
 bervanta.pro
 bestphoneapps.mobi
@@ -5460,10 +5457,8 @@ br.adserver.yahoo.com
 brand-sdk.kmsmep.com
 brekutiosai-pro.pages.dev
 brentor.pro
-brevondraxonlabsynergy.pro
 bricks.e.qq.com
 bridgeoos.com
-briefnowdaily.pro
 brinvora.pro
 bro.flyme.cn
 broadspring.com
@@ -5766,7 +5761,6 @@ cdnstaging-onead.cdn.hinet.net
 cdnuz.adviad.com
 cdxninteractive.blueadvertise.com
 ceadx.agrantsem.com
-celatonezytroxprobridge.pro
 cellfun.mobi
 centralads.simpli.fi
 centro.pixel.ad
@@ -7516,7 +7510,6 @@ konto-millennium-360-nl.top
 konto-millennium-360.top
 korventa.pro
 kpstaticbj.wx.ckjr001.com
-kreofixvoltruniandomain.pro
 kstj.baidu.com
 ku11.pro
 ku6.cnzz.com
@@ -7574,7 +7567,6 @@ leadsynaptic.go2jump.org
 legjava.pro
 leijgerdams.pro
 lelixio-pro.pages.dev
-lemerendivenca.pro
 letv.axp.admaster.com.cn
 letv.m.cn.miaozhen.com
 level.turboads.de
@@ -7620,7 +7612,6 @@ lf9-sf-be-pack-sign.pglstatp-toutiao.com
 liberty.gedads.com
 libro-solethium-pro-com.pages.dev
 lightstep-collector.api.ua.com
-lindenvestode.pro
 link4ads.com
 linker.adsee.jp
 links-and-traffic.com
@@ -7655,7 +7646,6 @@ location.ximalaya.com
 lofter.httpdns.c.163.com
 logiclotemax-pro.pages.dev
 logiclotemax200-click.pages.dev
-logicpathora.pro
 logserver.insight.ucweb.com
 logssug.ucweb.com
 lorvano.pro
@@ -7679,7 +7669,6 @@ lubet.api.new.livejasmin.com
 luhovin.pro
 lupic.cdn.bcebos.com
 luquno.pro
-lyravestgrove.pro
 m-adash.m.taobao.com
 m-hayakawa.ad.dev.nend.net
 m-vali.cp31.ott.cibntv.net
@@ -8309,6 +8298,7 @@ owl.proadscdn.com
 ox-d.hypeads.org
 oxelvian-click.pages.dev
 oxlyrai-click.pages.dev
+oxvurilzsoftware-pro.pages.dev
 p.ad.gt
 p.admaster.com.cn
 p.adnxs.com
@@ -8857,7 +8847,6 @@ prod.pr.analytics.console.aws.a2z.com
 prod.pw.analytics.console.aws.a2z.com
 profile-api-prod-elb.53.localytics.com
 profitexofundbase-pro.pages.dev
-programadeinversionprivadamasiva.pro
 progressive.lp.mydas.mobi
 projectorreviews.advertserve.com
 promo-images.ttpsdk.info
@@ -9770,7 +9759,6 @@ sitemonitor.cn.miaozhen.com
 sizohia.pro
 sjarvis.taobao.com
 sk.ball88.mobi
-skjoldverdivik.pro
 skypicker-api.infinario.com
 slckg-2p3vy.ads.tremorhub.com
 slckg-4znyf.ads.tremorhub.com
@@ -9830,7 +9818,6 @@ souka.ipts.com
 souka.iptvlm.com
 souka.iptvzj.com
 soul-ad.soulapp.cn
-sovranocapitivo.pro
 sp-api.dable.io
 sp.advertising.com
 sp.analytics.yahoo.com
@@ -9931,7 +9918,6 @@ staging.sdkconfig.ad.xiaomi.srv
 staging.site.e.mi.com
 star-advertising.com
 starc.adv.koznak.tv
-stardexnexovumlyportal.pro
 starfish.pandora.xiaomi.com
 startup.mobile.yandex.net
 startup.oupeng.com
@@ -10802,7 +10788,6 @@ vast-events-staging.inner-active.mobi
 vast-events.inner-active.mobi
 vast.adsafeprotected.com
 vastx.moatads.com
-vatandaslikfonu.pro
 vbaof.admaster.com.cn
 vcardsdkservice.vivo.com.cn
 vcdn.adnxs.com
@@ -10814,7 +10799,6 @@ veads.veinteractive.com
 veim.lrswl.com
 vela.iad-01.braze.com
 veltronaxis-click.pages.dev
-velvixkentromintspectrum.pro
 vena.native-ad.net
 venetia.iad.appboy.com
 verificaitalia-click.pages.dev
@@ -10854,13 +10838,11 @@ view.admaster.com.cn
 view.mediav.com
 vik-analytics-gke.moonactive.net
 vik-analytics.moonactive.net
-vintaroquorixhubwave.pro
 vinted-check.com
 vip.adstatic.com
 vipads.cc
 vipads.live
 viqiyi.admaster.com.cn
-virtuosomercovia.pro
 vitals.vercel-analytics.com
 vivads.net
 vletv.admaster.com.cn
@@ -11524,7 +11506,6 @@ www.alchxxemizing.pro
 www.aldlou.homesteadvalue.shop
 www.allnimadversions.info
 www.altiorainvest-pro.pages.dev
-www.alvantaoriplexussource.pro
 www.alvenor.pro
 www.ambrokurier.pro
 www.analytics-digit-in.cdn.ampproject.org
@@ -11533,7 +11514,6 @@ www.analytics.ero-advertising.com
 www.analytics.icons8.com
 www.analytics.picsart.com
 www.anners.ero-advertising.com
-www.api-cwlyy8pkz.contentsaadatnadarim.lol
 www.api.axiatraders.com
 www.api.taboola.com
 www.asiacuan303-site.pro
@@ -11571,7 +11551,6 @@ www.beaconfundamoren.pro
 www.beathhification.pro
 www.beginads.com
 www.bemydate.mobi
-www.bergkuppeportiasoftware.pro
 www.beroxoy.pro
 www.bervanta.pro
 www.bestphoneapps.mobi
@@ -11593,8 +11572,6 @@ www.bluebadge-status-update.vercel.app
 www.bluequbitai-pro.pages.dev
 www.brekutiosai-pro.pages.dev
 www.brentor.pro
-www.brevondraxonlabsynergy.pro
-www.briefnowdaily.pro
 www.brightstardv.pro
 www.brinvora.pro
 www.broadspring.com
@@ -11615,7 +11592,6 @@ www.cbeckads.com
 www.cbproads.com
 www.cdn.beginads.com
 www.cdn4ads.com
-www.celatonezytroxprobridge.pro
 www.cellfun.mobi
 www.chat.ero-advertising.com
 www.check-pz.club
@@ -11844,7 +11820,6 @@ www.kivazyu.pro
 www.knacads.com
 www.koki-seo.pro
 www.korventa.pro
-www.kreofixvoltruniandomain.pro
 www.kubyneo.pro
 www.ladsblue.com
 www.lanzoud.com
@@ -11856,10 +11831,8 @@ www.layout-capturer-pro.lovable.app
 www.leadenhorges.pro
 www.leijgerdams.pro
 www.lelixio-pro.pages.dev
-www.lemerendivenca.pro
 www.levorix.pro
 www.libro-solethium-pro-com.pages.dev
-www.lindenvestode.pro
 www.links-and-traffic.com
 www.linthermands.pro
 www.liquidstorse.pro
@@ -11867,7 +11840,6 @@ www.liveflashdaily.pro
 www.loadsabingo.com
 www.logiclotemax-pro.pages.dev
 www.logiclotemax200-click.pages.dev
-www.logicpathora.pro
 www.lorvano.pro
 www.lorventa.pro
 www.lorvian.pro
@@ -11876,7 +11848,6 @@ www.lottery.olg.ca
 www.lp.trade360.com
 www.luhovin.pro
 www.luquno.pro
-www.lyravestgrove.pro
 www.magento-analytics.com
 www.mainadv.com
 www.maralgel.pro
@@ -11941,6 +11912,7 @@ www.ostrikredovka-click.pages.dev
 www.oventix.pro
 www.oxelvian-click.pages.dev
 www.oxlyrai-click.pages.dev
+www.oxvurilzsoftware-pro.pages.dev
 www.pabellgross.pro
 www.pagepeel.ero-advertising.com
 www.palmarendario-click.pages.dev
@@ -11991,7 +11963,6 @@ www.pro.cn
 www.proadscdn.com
 www.procuritage.pro
 www.profitexofundbase-pro.pages.dev
-www.programadeinversionprivadamasiva.pro
 www.properrayam.pro
 www.qchannel01.cn
 www.qesuqiy.pro
@@ -12067,7 +12038,6 @@ www.sin.ero-advertising.com
 www.sintrelonix-pro.pages.dev
 www.sitekyy.pro
 www.sizohia.pro
-www.skjoldverdivik.pro
 www.slimads.vn
 www.smartadserver.com
 www.smartcoved.pro
@@ -12078,7 +12048,6 @@ www.sobrerendoire-pro.pages.dev
 www.softsmart.mobi
 www.sognebeacon.pro
 www.solvecto-click.pages.dev
-www.sovranocapitivo.pro
 www.spaces.ero-advertising.com
 www.speed4cksa.ero-advertising.com
 www.speedclecks.ero-advertising.com
@@ -12089,7 +12058,6 @@ www.speeuclicks.ero-advertising.com
 www.sponsorads.de
 www.sportplus.pro
 www.star-advertising.com
-www.stardexnexovumlyportal.pro
 www.stats.data2.ero-advertising.com
 www.stats.ero-advertising.com
 www.stats.speedclicks.ero-advertising.com
@@ -12170,17 +12138,13 @@ www.valuezone-click.pages.dev
 www.vanguardassetadvisory.com
 www.vantaxio-pro-com.pages.dev
 www.vapyguu.pro
-www.vatandaslikfonu.pro
 www.veltronaxis-click.pages.dev
-www.velvixkentromintspectrum.pro
 www.verificaitalia-click.pages.dev
 www.vibestop.pro
 www.victoriaexecutive.pro
-www.vintaroquorixhubwave.pro
 www.vinted-check.com
 www.vipads.cc
 www.vipads.live
-www.virtuosomercovia.pro
 www.voiceads.cn
 www.vonomuu.pro
 www.vydifoo.pro
@@ -12219,7 +12183,6 @@ www.youripad4free.com
 www.ypmadserver.com
 www.yundabao.com
 www.yvmads.com
-www.zaneklumetrixondynamics.pro
 www.zealmeritadvisors.net
 www.zeelandbeacon.pro
 www.zelioraprotocen-click.pages.dev
@@ -12426,7 +12389,6 @@ zalo-ads-td.zadn.vn
 zalo-ads.mediaz.vn
 zalo-ads.zadn.vn
 zaloads-480.zdn.vn
-zaneklumetrixondynamics.pro
 zapadserver1.com
 zazerygu.pro
 zdads.e-media.com
